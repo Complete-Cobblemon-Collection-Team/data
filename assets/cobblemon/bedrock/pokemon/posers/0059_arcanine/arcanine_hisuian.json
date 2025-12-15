@@ -14,8 +14,8 @@
   ],
   "rootBone": "arcanine",
   "animations": {
-    "cry": "q.bedrock_stateful('arcanine_hisuian', 'cry', q.curve('symmetrical_wide'))",
-    "recoil": "q.bedrock_stateful('arcanine_hisuian', 'recoil', q.curve('symmetrical_wide'))",
+    "cry": "q.bedrock_stateful('arcanine_hisuian', 'cry')",
+    "recoil": "q.bedrock_stateful('arcanine_hisuian', 'recoil')",
     "special": "q.bedrock_primary('arcanine_hisuian', 'special', q.curve('symmetrical_wide'))"
   },
   "poses": {
