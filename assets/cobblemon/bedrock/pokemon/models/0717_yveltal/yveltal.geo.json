@@ -6,7 +6,7 @@
         "identifier": "geometry.yveltal",
         "texture_width": 512,
         "texture_height": 512,
-        "visible_bounds_width": 22,
+        "visible_bounds_width": 83,
         "visible_bounds_height": 19,
         "visible_bounds_offset": [
           0,
@@ -1017,7 +1017,7 @@
           ]
         },
         {
-          "name": "bone",
+          "name": "jaw",
           "parent": "head",
           "pivot": [
             0,
@@ -1301,7 +1301,7 @@
         },
         {
           "name": "bone5",
-          "parent": "bone",
+          "parent": "jaw",
           "pivot": [
             0,
             21.078,
@@ -1403,7 +1403,7 @@
             {
               "origin": [
                 -32,
-                27.50144,
+                27.32644,
                 24.75897
               ],
               "size": [
@@ -1447,7 +1447,7 @@
             {
               "origin": [
                 -43,
-                27.30144,
+                27.25144,
                 23.50897
               ],
               "size": [
@@ -1463,7 +1463,7 @@
             {
               "origin": [
                 -53.5,
-                27.30144,
+                27.25144,
                 23.50897
               ],
               "size": [

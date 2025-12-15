@@ -13,14 +13,18 @@
       "poser": "cobblemon:yveltal",
       "model": "cobblemon:yveltal.geo",
       "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal.png",
-      "layers": []
+      "layers": [
+        
+      ] 
     },
     {
-      "aspects": [
-        "shiny"
-      ],
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal_shiny.png",
-      "layers": []
+      "layers": [
+        
+       
+      ]
+      
     }
   ]
 }
