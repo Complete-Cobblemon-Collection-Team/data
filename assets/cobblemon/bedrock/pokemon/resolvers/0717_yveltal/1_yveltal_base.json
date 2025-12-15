@@ -1,30 +1,20 @@
 {
   "species": "cobblemon:yveltal",
   "order": 1,
-  "baseScale": 0.75,
-  "hitbox": {
-    "width": 0.5,
-    "height": 2,
-    "fixed": false
-  },
   "variations": [
     {
       "aspects": [],
       "poser": "cobblemon:yveltal",
       "model": "cobblemon:yveltal.geo",
-      "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal.png",
-      "layers": [
-        
-      ] 
+      "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal.png"
     },
     {
-      "aspects": ["shiny"],
-      "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal_shiny.png",
-      "layers": [
-        
-       
-      ]
-      
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:yveltal",
+      "model": "cobblemon:yveltal.geo",
+      "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal_shiny.png"
     }
   ]
 }
