@@ -29,13 +29,13 @@
       "isBattle": false,
       "animations": [
         "look",
-        "bedrock(baile_oricorio, ground_idle)"
+        "q.bedrock('baile_oricorio', 'ground_idle')"
       ],
       "quirks": [
         {
           "name": "blink",
           "animations": [
-            "bedrock(baile_oricorio, blink)"
+            "q.bedrock('baile_oricorio', 'blink')"
           ]
         }
       ]
@@ -48,13 +48,13 @@
       ],
       "animations": [
         "look",
-        "bedrock(baile_oricorio, ground_walk)"
+        "q.bedrock('baile_oricorio', 'ground_walk')"
       ],
       "quirks": [
         {
           "name": "blink",
           "animations": [
-            "bedrock(baile_oricorio, blink)"
+            "q.bedrock('baile_oricorio', 'blink')"
           ]
         }
       ]
@@ -68,13 +68,13 @@
       "isBattle": true,
       "animations": [
         "look",
-        "bedrock(baile_oricorio, pose)"
+        "q.bedrock('baile_oricorio', 'pose')"
       ],
       "quirks": [
         {
           "name": "blink",
           "animations": [
-            "bedrock(baile_oricorio, blink)"
+            "q.bedrock('baile_oricorio', 'blink')"
           ]
         }
       ]
