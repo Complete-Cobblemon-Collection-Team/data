@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "pau-style"
+        "pa'u-style"
       ],
       "poser": "cobblemon:pau_oricorio",
       "model": "cobblemon:pau_oricorio.geo",
@@ -13,8 +13,8 @@
     },
     {
       "aspects": [
-        "shiny",
-        "pau-style"
+        "pa'u-style",
+        "shiny"
       ],
       "poser": "cobblemon:pau_oricorio",
       "model": "cobblemon:pau_oricorio.geo",

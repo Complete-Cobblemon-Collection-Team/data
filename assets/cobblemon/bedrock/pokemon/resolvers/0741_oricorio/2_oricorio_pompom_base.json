@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "pom-pom-style"
+        "pom_pom-style"
       ],
       "poser": "cobblemon:pompom_oricorio",
       "model": "cobblemon:pompom_oricorio.geo",
@@ -13,8 +13,8 @@
     },
     {
       "aspects": [
-        "shiny",
-        "pom-pom-style"
+        "pom_pom-style",
+        "shiny"
       ],
       "poser": "cobblemon:pompom_oricorio",
       "model": "cobblemon:pompom_oricorio.geo",
