@@ -6,10 +6,10 @@
     4.14,
     0
   ],
-  "profileScale": 0.7,
+  "profileScale": 0.28,
   "profileTranslation": [
     0,
-    0.8,
+    1.4,
     0
   ],
   "faint": "bedrock(terapagos_stellar, sleep)",
