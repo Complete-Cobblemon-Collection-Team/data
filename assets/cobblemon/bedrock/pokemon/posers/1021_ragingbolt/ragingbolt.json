@@ -1,11 +1,11 @@
 {
-  "portraitScale": 0.45,
+  "portraitScale": 0.85,
   "portraitTranslation": [
-    -0.1,
-    2.5,
+    -0.68,
+    4.94,
     0
   ],
-  "profileScale": 0.25,
+  "profileScale": 0.2,
   "profileTranslation": [
     0,
     1.5,
