@@ -22,8 +22,8 @@
         "PROFILE"
       ],
       "animations": [
-        "look",
-        "bedrock(ragingbolt, ground_idle)"
+        "q.look('head')",
+        "q.bedrock('ragingbolt', 'ground_idle')"
       ]
     },
     "walking": {
@@ -33,7 +33,7 @@
         "WALK"
       ],
       "animations": [
-        "bedrock(ragingbolt, ground_walk)"
+        "q.bedrock('ragingbolt', 'ground_walk')"
       ]
     },
     "swimming": {
@@ -43,7 +43,7 @@
         "SWIM"
       ],
       "animations": [
-        "bedrock(ragingbolt, ground_walk)"
+        "q.bedrock('ragingbolt', 'ground_walk')"
       ]
     }
   }
