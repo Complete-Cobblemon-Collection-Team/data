@@ -1,15 +1,15 @@
 {
-  "portraitScale": 0.5,
+  "portraitScale": 0.87,
   "portraitTranslation": [
-    0,
-    3,
+    -0.08,
+    4.29,
     0
   ],
-  "profileScale": 0.3,
+  "profileScale": 0.25,
   "profileTranslation": [
     0,
-    1.2,
-    0
+    1.5,
+    2
   ],
   "rootBone": "melmetalgmax",
   "animations": {},
