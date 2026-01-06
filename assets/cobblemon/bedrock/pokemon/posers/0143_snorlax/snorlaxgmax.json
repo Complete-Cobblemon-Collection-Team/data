@@ -9,7 +9,7 @@
   "profileScale": 0.5,
   "profileTranslation": [
     0,
-    0.5,
+    1.0,
     0
   ],
   "cry": "bedrock(snorlaxgmax, cry)",
