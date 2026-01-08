@@ -1,87 +1,42 @@
 {
   "portraitScale": 2.1,
-  "portraitTranslation": [
-    -1.0,
-    3.05,
-    0
-  ],
-  "profileScale": 0.51,
-  "profileTranslation": [
-    0.05,
-    0.99,
-    -10
-  ],
-  "rootBone": "charizard_gigantamax",
+  "portraitTranslation": [-1.0, 3.05, 0],
   "poses": {
-    "portrait": {
-      "poseTypes": [
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('charizard_gigantamax', 'battle_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('charizard_gigantamax', 'blink')"
-      ]
+    "battle-flying": {
+      "animations": ["q.look('head_ai')", "q.bedrock('charizard_gigantamax', 'air_idle')"],
+      "isBattle": true,
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('charizard_gigantamax', 'blink')"]
     },
     "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["q.look('head_ai')", "q.bedrock('charizard_gigantamax', 'battle_idle')"],
       "isBattle": true,
       "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('charizard_gigantamax', 'battle_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('charizard_gigantamax', 'blink')"
-      ]
-    },
-    "battle-flying": {
-      "poseTypes": [
-        "HOVER"
-      ],
-      "isBattle": true,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('charizard_gigantamax', 'air_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('charizard_gigantamax', 'blink')"
-      ]
-    },
-    "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE"
-      ],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('charizard_gigantamax', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('charizard_gigantamax', 'blink')"
-      ]
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('charizard_gigantamax', 'blink')"]
     },
     "hover": {
-      "poseTypes": [
-        "HOVER"
-      ],
+      "animations": ["q.look('head_ai')", "q.bedrock('charizard_gigantamax', 'air_idle')"],
       "isBattle": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('charizard_gigantamax', 'air_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('charizard_gigantamax', 'blink')"
-      ]
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('charizard_gigantamax', 'blink')"]
+    },
+    "portrait": {
+      "animations": ["q.look('head_ai')", "q.bedrock('charizard_gigantamax', 'battle_idle')"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('charizard_gigantamax', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head_ai')", "q.bedrock('charizard_gigantamax', 'ground_idle')"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["STAND", "NONE"],
+      "quirks": ["q.bedrock_quirk('charizard_gigantamax', 'blink')"]
     }
-  }
+  },
+  "profileScale": 0.51,
+  "profileTranslation": [0.05, 0.99, -10],
+  "rootBone": "charizard_gigantamax"
 }

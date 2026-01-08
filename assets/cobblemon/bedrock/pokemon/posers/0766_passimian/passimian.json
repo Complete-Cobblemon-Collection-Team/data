@@ -1,52 +1,27 @@
 {
-  "portraitScale": 2,
-  "portraitTranslation": [
-    -0.4,
-    0,
-    0
-  ],
-  "profileScale": 1,
-  "profileTranslation": [
-    0,
-    0.25,
-    0
-  ],
-  "rootBone": "passimian",
   "animations": {
     "cry": "q.bedrock_stateful('passimian', 'cry')",
     "recoil": "q.bedrock_stateful('passimian', 'recoil')"
   },
+  "portraitScale": 2,
+  "portraitTranslation": [-0.4, 0, 0],
   "poses": {
     "standing": {
+      "animations": ["q.bedrock('passimian', 'ground_idle')"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "q.bedrock('passimian', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('passimian', 'blink')",
-        "q.bedrock_quirk('passimian', 'quirk1', 20, 60, 1)",
-        "q.bedrock_quirk('passimian', 'quirk2', 20, 60, 1)"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('passimian', 'blink')", "q.bedrock_quirk('passimian', 'quirk1', 20, 60, 1)", "q.bedrock_quirk('passimian', 'quirk2', 20, 60, 1)"],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["q.bedrock('passimian', 'ground_walk2')"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('passimian', 'ground_walk2')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('passimian', 'blink')"
-      ]
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('passimian', 'blink')"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0.25, 0],
+  "rootBone": "passimian"
 }

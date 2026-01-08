@@ -1,91 +1,56 @@
 {
+  "cry": "bedrock(rillaboomgmax, cry)",
   "head": "head",
   "portraitScale": 0.5,
-  "portraitTranslation": [
-    0,
-    1,
-    0
-  ],
-  "profileScale": 0.5,
-  "profileTranslation": [
-    0,
-    1,
-    0
-  ],
-  "cry": "bedrock(rillaboomgmax, cry)",
+  "portraitTranslation": [0, 1, 0],
   "poses": {
     "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["bedrock(rillaboomgmax, ground_idle)"],
       "isBattle": true,
       "isTouchingWater": false,
-      "animations": [
-        "bedrock(rillaboomgmax, ground_idle)"
-      ],
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(rillaboomgmax, blink)"
-          ]
-        },
-        {
-          "name": "quirk_idle",
-          "transformTicks": 10,
+          "animations": ["bedrock(rillaboomgmax, blink)"],
+          "name": "blink"
+        }, {
+          "animations": ["bedrock(rillaboomgmax, cry)"],
           "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 19,
           "maxSecondsBetweenOccurrences": 20,
-          "animations": [
-            "bedrock(rillaboomgmax, cry)"
-          ]
+          "minSecondsBetweenOccurrences": 19,
+          "name": "quirk_idle",
+          "transformTicks": 10
         }
-      ]
+      ],
+      "transformTicks": 10
     },
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "HOVER",
-        "FLY"
-      ],
+      "animations": ["look", "bedrock(rillaboomgmax, ground_idle)"],
       "isBattle": false,
-      "animations": [
-        "look",
-        "bedrock(rillaboomgmax, ground_idle)"
-      ],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "HOVER", "FLY"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(rillaboomgmax, blink)"
-          ]
+          "animations": ["bedrock(rillaboomgmax, blink)"],
+          "name": "blink"
         }
-      ]
+      ],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["look", "bedrock(rillaboomgmax, ground_idle)"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "look",
-        "bedrock(rillaboomgmax, ground_idle)"
-      ],
+      "poseTypes": ["WALK"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(rillaboomgmax, blink)"
-          ]
+          "animations": ["bedrock(rillaboomgmax, blink)"],
+          "name": "blink"
         }
-      ]
+      ],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0]
 }

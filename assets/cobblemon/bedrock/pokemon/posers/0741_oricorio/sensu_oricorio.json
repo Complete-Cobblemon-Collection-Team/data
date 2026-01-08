@@ -1,83 +1,51 @@
 {
-  "portraitScale": 2,
-  "head": "neck",
-  "portraitTranslation": [
-    0,
-    -0.1,
-    0
-  ],
-  "profileScale": 0.76,
-  "profileTranslation": [
-    0.08,
-    0.4,
-    0
-  ],
   "animations": {
     "cry": "q.bedrock_stateful('sensu_oricorio', 'cry')",
     "recoil": "q.bedrock_stateful('sensu_oricorio', 'recoil')"
   },
+  "head": "neck",
+  "portraitScale": 2,
+  "portraitTranslation": [0, -0.1, 0],
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "animations": [
-        "look",
-        "q.bedrock('sensu_oricorio', 'ground_idle')"
-      ],
+    "battle-idle": {
+      "animations": ["look", "q.bedrock('sensu_oricorio', 'pose')"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "q.bedrock('sensu_oricorio', 'blink')"
-          ]
+          "animations": ["q.bedrock('sensu_oricorio', 'blink')"],
+          "name": "blink"
         }
-      ]
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "q.bedrock('sensu_oricorio', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["q.bedrock('sensu_oricorio', 'blink')"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["look", "q.bedrock('sensu_oricorio', 'ground_walk')"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "look",
-        "q.bedrock('sensu_oricorio', 'ground_walk')"
-      ],
+      "poseTypes": ["WALK"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "q.bedrock('sensu_oricorio', 'blink')"
-          ]
+          "animations": ["q.bedrock('sensu_oricorio', 'blink')"],
+          "name": "blink"
         }
-      ]
-    },
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND"
       ],
-      "isBattle": true,
-      "animations": [
-        "look",
-        "q.bedrock('sensu_oricorio', 'pose')"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "q.bedrock('sensu_oricorio', 'blink')"
-          ]
-        }
-      ]
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.76,
+  "profileTranslation": [0.08, 0.4, 0]
 }

@@ -1,90 +1,45 @@
 {
-  "portraitScale": 2.0,
-  "portraitTranslation": [
-    -0.23,
-    0.55,
-    0.0
-  ],
-  "profileScale": 0.9,
-  "profileTranslation": [
-    0.0,
-    0.4,
-    0.0
-  ],
   "animations": {
     "cry": "q.bedrock_stateful('slowbro_mega', 'cry')"
   },
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.23, 0.55, 0.0],
   "poses": {
     "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["q.bedrock('slowbro_mega', 'battle_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.bedrock('slowbro_mega', 'battle_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('slowbro_mega', 'blink1')"
-      ]
-    },
-    "standing": {
-      "poseTypes": [
-        "PORTRAIT",
-        "PROFILE",
-        "STAND",
-        "NONE"
-      ],
-      "isBattle": false,
-      "animations": [
-        "q.bedrock('slowbro_mega', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('slowbro_mega', 'blink1')"
-      ]
-    },
-    "walking": {
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('slowbro_mega', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('slowbro_mega', 'blink1')"
-      ]
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('slowbro_mega', 'blink1')"]
     },
     "float": {
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "q.bedrock('slowbro_mega', 'water_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('slowbro_mega', 'blink1')"
-      ]
-    },
-    "swim": {
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "q.bedrock('slowbro_mega', 'water_swim')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('slowbro_mega', 'blink1')"
-      ]
+      "animations": ["q.bedrock('slowbro_mega', 'water_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('slowbro_mega', 'blink1')"]
     },
     "sleep": {
-      "poseTypes": [
-        "SLEEP"
-      ],
+      "animations": ["q.bedrock('slowbro_mega', 'sleep')"],
       "namedAnimations": {
         "cry": "q.bedrock_stateful('slowbro_mega', 'cry')"
       },
-      "animations": [
-        "q.bedrock('slowbro_mega', 'sleep')"
-      ]
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('slowbro_mega', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["PORTRAIT", "PROFILE", "STAND", "NONE"],
+      "quirks": ["q.bedrock_quirk('slowbro_mega', 'blink1')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('slowbro_mega', 'water_swim')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('slowbro_mega', 'blink1')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('slowbro_mega', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('slowbro_mega', 'blink1')"]
     }
-  }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0.0, 0.4, 0.0]
 }

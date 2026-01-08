@@ -1,57 +1,34 @@
 {
-  "portraitScale": 1.75,
-  "portraitTranslation": [
-    -0.1,
-    -1.1,
-    0
-  ],
-  "profileScale": 1,
-  "profileTranslation": [
-    0,
-    0.2,
-    0
-  ],
-  "rootBone": "cascoon",
   "animations": {
     "cry": "q.bedrock_stateful('cascoon', 'cry')",
-    "recoil": "q.bedrock_stateful('cascoon', 'recoil')",
     "physical": "q.bedrock_primary('cascoon', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('cascoon', 'recoil')",
     "special": "q.bedrock_primary('cascoon', 'physical', q.curve('symmetrical_wide'))",
     "status": "q.bedrock_primary('cascoon', 'physical', q.curve('symmetrical_wide'))"
   },
+  "portraitScale": 1.75,
+  "portraitTranslation": [-0.1, -1.1, 0],
   "poses": {
+    "sleeping": {
+      "animations": ["q.bedrock('cascoon', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
     "standing": {
+      "animations": ["q.bedrock('cascoon', 'ground_idle')"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "q.bedrock('cascoon', 'ground_idle')"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["q.bedrock('cascoon', 'ground_idle')"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('cascoon', 'ground_idle')"
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "q.bedrock('cascoon', 'sleep')"
-      ]
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0.2, 0],
+  "rootBone": "cascoon"
 }

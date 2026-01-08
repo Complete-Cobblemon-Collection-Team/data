@@ -1,19 +1,16 @@
 {
-  "species": "cobblemon:helioptile",
   "order": 0,
+  "species": "cobblemon:helioptile",
   "variations": [
     {
-      "poser": "cobblemon:helioptile",
+      "layers": [],
       "model": "cobblemon:helioptile.geo",
-      "texture": "cobblemon:textures/pokemon/0694_helioptile/helioptile.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0694_helioptile/helioptile_shiny.png",
-      "layers": []
+      "poser": "cobblemon:helioptile",
+      "texture": "cobblemon:textures/pokemon/0694_helioptile/helioptile.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0694_helioptile/helioptile_shiny.png"
     }
   ]
 }

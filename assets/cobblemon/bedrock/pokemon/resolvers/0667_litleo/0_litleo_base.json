@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:litleo",
   "order": 0,
+  "species": "cobblemon:litleo",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:litleo",
+      "layers": [],
       "model": "cobblemon:litleo.geo",
-      "texture": "cobblemon:textures/pokemon/0667_litleo/litleo.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:litleo",
+      "texture": "cobblemon:textures/pokemon/0667_litleo/litleo.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0667_litleo/litleo_shiny.png"
     }
   ]

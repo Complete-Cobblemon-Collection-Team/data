@@ -1,17 +1,14 @@
 {
-  "species": "cobblemon:zygarde",
   "order": 1,
+  "species": "cobblemon:zygarde",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:zygarde",
       "model": "cobblemon:zygarde.geo",
+      "poser": "cobblemon:zygarde",
       "texture": "cobblemon:textures/pokemon/0718_zygarde/zygarde.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0718_zygarde/zygarde_shiny.png"
     }
   ]

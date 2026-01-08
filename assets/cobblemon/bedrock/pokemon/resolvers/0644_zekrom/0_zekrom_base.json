@@ -1,34 +1,31 @@
 {
-  "species": "cobblemon:zekrom",
   "order": 0,
+  "species": "cobblemon:zekrom",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:zekrom",
-      "model": "cobblemon:zekrom.geo",
-      "texture": "cobblemon:textures/pokemon/0644_zekrom/zekrom.png",
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0644_zekrom/zekrom_emissive.png",
           "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0644_zekrom/zekrom_shiny.png",
+      "model": "cobblemon:zekrom.geo",
+      "poser": "cobblemon:zekrom",
+      "texture": "cobblemon:textures/pokemon/0644_zekrom/zekrom.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0644_zekrom/zekrom_emissive_shiny.png",
           "translucent": true
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0644_zekrom/zekrom_shiny.png"
     }
   ]
 }

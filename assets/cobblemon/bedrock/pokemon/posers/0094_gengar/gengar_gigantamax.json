@@ -1,52 +1,27 @@
 {
   "portraitScale": 0.4,
-  "portraitTranslation": [
-    -0.3,
-    2.5,
-    0
-  ],
-  "profileScale": 0.15,
-  "profileTranslation": [
-    0,
-    1.35,
-    0
-  ],
-  "rootBone": "gengar_gmax",
+  "portraitTranslation": [-0.3, 2.5, 0],
   "poses": {
-    "portrait": {
-      "poseTypes": [
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('gengar_gmax', 'ground_idle')"
-      ]
-    },
-    "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE"
-      ],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('gengar_gmax', 'ground_idle')"
-      ]
-    },
     "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["q.look('head_ai')", "q.bedrock('gengar_gmax', 'ground_idle')"],
       "isBattle": true,
       "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('gengar_gmax', 'ground_idle')"
-      ]
+      "poseTypes": ["STAND"]
+    },
+    "portrait": {
+      "animations": ["q.look('head_ai')", "q.bedrock('gengar_gmax', 'ground_idle')"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["PORTRAIT", "PROFILE"]
+    },
+    "standing": {
+      "animations": ["q.look('head_ai')", "q.bedrock('gengar_gmax', 'ground_idle')"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["STAND", "NONE"]
     }
-  }
+  },
+  "profileScale": 0.15,
+  "profileTranslation": [0, 1.35, 0],
+  "rootBone": "gengar_gmax"
 }

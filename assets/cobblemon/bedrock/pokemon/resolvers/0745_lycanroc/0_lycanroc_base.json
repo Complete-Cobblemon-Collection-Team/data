@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:lycanroc",
   "order": 0,
+  "species": "cobblemon:lycanroc",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lycanroc",
+      "layers": [],
       "model": "cobblemon:lycanroc.geo",
-      "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:lycanroc",
+      "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_shiny.png"
     }
   ]

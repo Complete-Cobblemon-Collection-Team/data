@@ -1,34 +1,31 @@
 {
-  "species": "cobblemon:greavard",
   "order": 0,
+  "species": "cobblemon:greavard",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:greavard",
-      "model": "cobblemon:greavard.geo",
-      "texture": "cobblemon:textures/pokemon/0971_greavard/greavard.png",
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0971_greavard/greavard_emissive.png",
           "translucent": false
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0971_greavard/0971_greavard_shiny.png",
+      "model": "cobblemon:greavard.geo",
+      "poser": "cobblemon:greavard",
+      "texture": "cobblemon:textures/pokemon/0971_greavard/greavard.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0971_greavard/greavard_emissive.png",
           "translucent": false
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0971_greavard/0971_greavard_shiny.png"
     }
   ]
 }

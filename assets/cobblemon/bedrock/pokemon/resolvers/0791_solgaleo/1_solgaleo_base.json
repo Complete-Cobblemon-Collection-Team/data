@@ -1,34 +1,31 @@
 {
-  "species": "cobblemon:solgaleo",
   "order": 1,
+  "species": "cobblemon:solgaleo",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:solgaleo",
-      "model": "cobblemon:solgaleo.geo",
-      "texture": "cobblemon:textures/pokemon/0791_solgaleo/solgaleo.png",
       "layers": [
         {
-          "name": "glow",
           "emissive": true,
+          "name": "glow",
           "texture": "cobblemon:textures/pokemon/0791_solgaleo/solgaleo_emissive.png",
           "translucent": false
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0791_solgaleo/solgaleo_shiny.png",
+      "model": "cobblemon:solgaleo.geo",
+      "poser": "cobblemon:solgaleo",
+      "texture": "cobblemon:textures/pokemon/0791_solgaleo/solgaleo.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "glow",
           "emissive": true,
+          "name": "glow",
           "texture": "cobblemon:textures/pokemon/0791_solgaleo/solgaleo_emissive.png",
           "translucent": false
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0791_solgaleo/solgaleo_shiny.png"
     }
   ]
 }

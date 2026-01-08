@@ -1,50 +1,25 @@
 {
+  "animations": {
+    "cry": "q.bedrock_stateful('stunky', 'cry')",
+    "faint": "q.bedrock_primary('stunky', 'faint', q.curve('one'))"
+  },
   "head": "head",
   "portraitScale": 2.8,
-  "portraitTranslation": [
-    -0.6,
-    -1.9,
-    0
-  ],
-  "profileScale": 0.85,
-  "profileTranslation": [
-    0,
-    0.5,
-    0
-  ],
-  "animations": {
-    "faint": "q.bedrock_primary('stunky', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('stunky', 'cry')"
-  },
+  "portraitTranslation": [-0.6, -1.9, 0],
   "poses": {
+    "sleeping": {
+      "animations": ["bedrock(stunky, sleep)"],
+      "poseTypes": ["SLEEP"]
+    },
     "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "look",
-        "bedrock(stunky, ground_idle)"
-      ]
+      "animations": ["look", "bedrock(stunky, ground_idle)"],
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
     },
     "walking": {
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(stunky, ground_walk)"
-      ]
-    },
-    "sleeping": {
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "bedrock(stunky, sleep)"
-      ]
+      "animations": ["bedrock(stunky, ground_walk)"],
+      "poseTypes": ["WALK"]
     }
-  }
+  },
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.5, 0]
 }
-  

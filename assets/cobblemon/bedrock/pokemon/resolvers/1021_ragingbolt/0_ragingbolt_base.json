@@ -1,13 +1,13 @@
 {
-  "species": "cobblemon:ragingbolt",
   "order": 0,
+  "species": "cobblemon:ragingbolt",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ragingbolt",
+      "layers": [],
       "model": "cobblemon:ragingbolt.geo",
-      "texture": "cobblemon:textures/pokemon/1021_ragingbolt/ragingbolt.png",
-      "layers": []
+      "poser": "cobblemon:ragingbolt",
+      "texture": "cobblemon:textures/pokemon/1021_ragingbolt/ragingbolt.png"
     }
   ]
 }

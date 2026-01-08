@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:hatterene",
   "order": 1,
+  "species": "cobblemon:hatterene",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hatterene",
+      "layers": [],
       "model": "cobblemon:hatterene2.geo",
-      "texture": "cobblemon:textures/pokemon/0858_hatterene/hatterene.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:hatterene",
+      "texture": "cobblemon:textures/pokemon/0858_hatterene/hatterene.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0858_hatterene/hatterene_shiny.png"
     }
   ]

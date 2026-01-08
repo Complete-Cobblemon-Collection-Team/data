@@ -1,38 +1,21 @@
 {
-  "portraitScale": 0.7,
-  "portraitTranslation": [
-    -0.09,
-    1.5,
-    0
-  ],
-  "profileScale": 0.4,
-  "profileTranslation": [
-    -0.01,
-    1.2,
-    0
-  ],
-  "rootBone": "pikachu_gigantamax",
   "animations": {},
+  "portraitScale": 0.7,
+  "portraitTranslation": [-0.09, 1.5, 0],
   "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('pikachu_gigantamax', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
     "portrait": {
-      "poseTypes": [
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "animations": ["q.bedrock('pikachu_gigantamax', 'ground_idle')"],
       "isBattle": false,
       "isTouchingWater": false,
-      "animations": [
-        "q.bedrock('pikachu_gigantamax', 'ground_idle')"
-      ]
-    },
-    "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
-      "isBattle": true,
-      "animations": [
-        "q.bedrock('pikachu_gigantamax', 'battle_idle')"
-      ]
+      "poseTypes": ["PORTRAIT", "PROFILE"]
     }
-  }
+  },
+  "profileScale": 0.4,
+  "profileTranslation": [-0.01, 1.2, 0],
+  "rootBone": "pikachu_gigantamax"
 }

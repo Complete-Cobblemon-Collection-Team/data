@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:lokix",
   "order": 0,
+  "species": "cobblemon:lokix",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lokix",
+      "layers": [],
       "model": "cobblemon:lokix.geo",
-      "texture": "cobblemon:textures/pokemon/0920_lokix/lokix.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:lokix",
+      "texture": "cobblemon:textures/pokemon/0920_lokix/lokix.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0920_lokix/lokix_shiny.png"
     }
   ]

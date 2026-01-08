@@ -1,16 +1,13 @@
 {
-  "species": "cobblemon:suicune",
   "order": 0,
+  "species": "cobblemon:suicune",
   "variations": [
     {
-      "poser": "cobblemon:suicune",
       "model": "cobblemon:suicune.geo",
+      "poser": "cobblemon:suicune",
       "texture": "cobblemon:textures/pokemon/0245_suicune/suicune.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0245_suicune/suicune_shiny.png"
     }
   ]

@@ -1,20 +1,14 @@
 {
-  "species": "cobblemon:darmanitan",
   "order": 2,
+  "species": "cobblemon:darmanitan",
   "variations": [
     {
-      "aspects": [
-        "galarian"
-      ],
-      "poser": "cobblemon:darmanitan_galarian",
+      "aspects": ["galarian"],
       "model": "cobblemon:darmanitan_galarian.geo",
+      "poser": "cobblemon:darmanitan_galarian",
       "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galarian.png"
-    },
-    {
-      "aspects": [
-        "galarian",
-        "shiny"
-      ],
+    }, {
+      "aspects": ["galarian", "shiny"],
       "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galarian_shiny.png"
     }
   ]

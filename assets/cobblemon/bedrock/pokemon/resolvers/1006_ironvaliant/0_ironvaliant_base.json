@@ -1,32 +1,29 @@
 {
-  "species": "cobblemon:ironvaliant",
   "order": 0,
+  "species": "cobblemon:ironvaliant",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ironvaliant",
-      "model": "cobblemon:ironvaliant.geo",
-      "texture": "cobblemon:textures/pokemon/1006_ironvaliant/ironvaliant.png",
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/1006_ironvaliant/ironvaliant_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/1006_ironvaliant/ironvaliant_shiny.png",
+      "model": "cobblemon:ironvaliant.geo",
+      "poser": "cobblemon:ironvaliant",
+      "texture": "cobblemon:textures/pokemon/1006_ironvaliant/ironvaliant.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/1006_ironvaliant/ironvaliant_emissive.png"
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/1006_ironvaliant/ironvaliant_shiny.png"
     }
   ]
 }

@@ -1,24 +1,21 @@
 {
-  "species": "cobblemon:nihilego",
   "order": 0,
+  "species": "cobblemon:nihilego",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nihilego",
-      "model": "cobblemon:nihilego.geo",
-      "texture": "cobblemon:textures/pokemon/0793_nihilego/nihilego.png",
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0793_nihilego/nihilego_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0793_nihilego/nihilego_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
+      "model": "cobblemon:nihilego.geo",
+      "poser": "cobblemon:nihilego",
+      "texture": "cobblemon:textures/pokemon/0793_nihilego/nihilego.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0793_nihilego/nihilego_shiny.png"
     }
   ]

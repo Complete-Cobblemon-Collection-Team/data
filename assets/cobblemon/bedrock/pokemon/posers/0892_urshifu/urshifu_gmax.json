@@ -1,48 +1,22 @@
 {
   "portraitScale": 1,
-  "portraitTranslation": [
-    0.1,
-    2.2,
-    0
-  ],
-  "profileScale": 0.5,
-  "profileTranslation": [
-    0,
-    1.2,
-    0
-  ],
+  "portraitTranslation": [0.1, 2.2, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "animations": ["q.look('neck')", "q.bedrock('urshifu_gmax', 'single_battle_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.look('neck')",
-        "q.bedrock('urshifu_gmax', 'single_battle_idle')"
-      ]
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"]
     },
     "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE"
-      ],
+      "animations": ["q.look('neck')", "q.bedrock('urshifu_gmax', 'ground_idle')"],
       "isBattle": false,
-      "animations": [
-        "q.look('neck')",
-        "q.bedrock('urshifu_gmax', 'ground_idle')"
-      ]
+      "poseTypes": ["STAND", "NONE"]
     },
     "walking": {
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.look('neck')",
-        "q.bedrock('urshifu_gmax', 'ground_walk')"
-      ]
+      "animations": ["q.look('neck')", "q.bedrock('urshifu_gmax', 'ground_walk')"],
+      "poseTypes": ["WALK"]
     }
-  }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.2, 0]
 }

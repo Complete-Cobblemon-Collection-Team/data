@@ -1,65 +1,53 @@
 {
-  "portraitScale": 1.5,
-  "portraitTranslation": [-0.2, 3.4, 0],
-  "profileScale": 0.4,
-  "profileTranslation": [0, 1.2, 0],
   "animations": {
-    "faint": "q.bedrock_primary('deoxys_defense', 'faint', q.curve('one'))",
     "cry": "q.bedrock_stateful('deoxys_defense', 'cry')",
-    "recoil": "q.bedrock_stateful('deoxys_defense', 'recoil')",
+    "faint": "q.bedrock_primary('deoxys_defense', 'faint', q.curve('one'))",
     "physical": "q.bedrock_primary('deoxys_defense', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('deoxys_defense', 'recoil')",
     "special": "q.bedrock_primary('deoxys_defense', 'special', q.curve('symmetrical_wide'))",
     "status": "q.bedrock_primary('deoxys_defense', 'status', q.curve('symmetrical_wide'))"
   },
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.2, 3.4, 0],
   "poses": {
     "battle-standing": {
-      "transformTicks": 10,
-      "poseTypes": ["STAND"],
+      "animations": ["q.bedrock('deoxys_defense', 'ground_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.bedrock('deoxys_defense', 'ground_idle')"
-      ]
-    },
-    "standing": {
-      "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "isBattle": false,
-      "animations": [
-        "q.bedrock('deoxys_defense', 'ground_idle')"
-      ]
-    },
-    "walking": {
-      "transformTicks": 8,
-      "poseTypes": ["WALK"],
-      "animations": [
-        "q.bedrock('deoxys_defense', 'ground_walk')"
-      ]
-    },
-    "hover": {
-      "transformTicks": 5,
-      "poseTypes": [ "FLY", "HOVER", "FLOAT" ],
-      "animations": [         
-        "q.bedrock('deoxys_defense', 'ground_walk')"
-       ]
+      "poseTypes": ["STAND"],
+      "transformTicks": 10
     },
     "float": {
-      "transformTicks": 5,
+      "animations": ["q.bedrock('deoxys_defense', 'ground_walk')"],
       "poseTypes": ["FLOAT"],
-      "animations": [
-        "q.bedrock('deoxys_defense', 'ground_walk')"
-      ]
+      "transformTicks": 5
     },
-    "swim": {
-      "transformTicks": 8,
-      "poseTypes": ["SWIM"],
-      "animations": [
-        "q.bedrock('deoxys_defense', 'ground_walk')"
-      ]
+    "hover": {
+      "animations": ["q.bedrock('deoxys_defense', 'ground_walk')"],
+      "poseTypes": ["FLY", "HOVER", "FLOAT"],
+      "transformTicks": 5
     },
     "sleep": {
-      "transformTicks": 10,
+      "animations": ["q.bedrock('deoxys_defense', 'sleep')"],
       "poseTypes": ["SLEEP"],
-      "animations": ["q.bedrock('deoxys_defense', 'sleep')"]
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.bedrock('deoxys_defense', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.bedrock('deoxys_defense', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.bedrock('deoxys_defense', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
     }
-  }
+  },
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.2, 0]
 }

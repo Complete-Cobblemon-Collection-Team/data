@@ -1,63 +1,36 @@
 {
-  "portraitScale": 1.9,
-  "portraitTranslation": [
-    -0.4,
-    -0.5,
-    0
-  ],
-  "profileScale": 0.85,
-  "profileTranslation": [
-    0,
-    0.45,
-    0
-  ],
-  "rootBone": "wurmple",
   "animations": {
     "cry": "q.bedrock_stateful('wurmple', 'cry')",
-    "recoil": "q.bedrock_stateful('wurmple', 'recoil')",
     "physical": "q.bedrock_primary('wurmple', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('wurmple', 'recoil')",
     "special": "q.bedrock_primary('wurmple', 'special', q.curve('symmetrical_wide'))",
     "status": "q.bedrock_primary('wurmple', 'special', q.curve('symmetrical_wide'))"
   },
+  "portraitScale": 1.9,
+  "portraitTranslation": [-0.4, -0.5, 0],
   "poses": {
+    "sleeping": {
+      "animations": ["q.bedrock('wurmple', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
     "standing": {
+      "animations": ["q.bedrock('wurmple', 'ground_idle')"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "q.bedrock('wurmple', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('wurmple', 'blink')"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('wurmple', 'blink')"],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["q.bedrock('wurmple', 'ground_walk')"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('wurmple', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('wurmple', 'blink')"
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "q.bedrock('wurmple', 'sleep')"
-      ]
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('wurmple', 'blink')"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.45, 0],
+  "rootBone": "wurmple"
 }

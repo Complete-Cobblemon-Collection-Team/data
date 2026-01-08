@@ -1,28 +1,23 @@
 {
-  "species": "cobblemon:sawk",
-  "order": 0,
   "baseScale": 0.75,
   "hitbox": {
-    "width": 0.5,
+    "fixed": false,
     "height": 2,
-    "fixed": false
+    "width": 0.5
   },
+  "order": 0,
+  "species": "cobblemon:sawk",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sawk",
+      "layers": [],
       "model": "cobblemon:sawk.geo",
-      "texture": "cobblemon:textures/pokemon/0539_sawk/sawk.png",
-      "layers": [
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0539_sawk/sawk_shiny.png",
-      "layers": [
-      ]
+      "poser": "cobblemon:sawk",
+      "texture": "cobblemon:textures/pokemon/0539_sawk/sawk.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0539_sawk/sawk_shiny.png"
     }
   ]
 }

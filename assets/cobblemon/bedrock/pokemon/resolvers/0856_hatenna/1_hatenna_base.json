@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:hatenna",
   "order": 1,
+  "species": "cobblemon:hatenna",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hatenna",
+      "layers": [],
       "model": "cobblemon:hatenna2.geo",
-      "texture": "cobblemon:textures/pokemon/0856_hatenna/hatenna.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:hatenna",
+      "texture": "cobblemon:textures/pokemon/0856_hatenna/hatenna.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0856_hatenna/hatenna_shiny.png"
     }
   ]

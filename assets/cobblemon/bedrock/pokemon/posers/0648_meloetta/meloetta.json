@@ -1,80 +1,48 @@
 {
+  "cry": "bedrock(meloetta, cry)",
   "head": "head",
   "portraitScale": 1.25,
-  "portraitTranslation": [
-    0,
-    0.5,
-    0
-  ],
-  "profileScale": 0.8,
-  "profileTranslation": [
-    0,
-    0.4,
-    0
-  ],
-  "cry": "bedrock(meloetta, cry)",
+  "portraitTranslation": [0, 0.5, 0],
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "animations": [
-        "look",
-        "bedrock(meloetta, ground_idle)"
-      ],
+    "battle-idle": {
+      "animations": ["look", "bedrock(meloetta, battle_idle)"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(meloetta, blink)"
-          ]
+          "animations": ["bedrock(meloetta, blink)"],
+          "name": "blink"
         }
-      ]
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(meloetta, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(meloetta, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["look", "bedrock(meloetta, ground_walk)"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "look",
-        "bedrock(meloetta, ground_walk)"
-      ],
+      "poseTypes": ["WALK"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(meloetta, blink)"
-          ]
+          "animations": ["bedrock(meloetta, blink)"],
+          "name": "blink"
         }
-      ]
-    },
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND"
       ],
-      "isBattle": true,
-      "animations": [
-        "look",
-        "bedrock(meloetta, battle_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(meloetta, blink)"
-          ]
-        }
-      ]
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.4, 0]
 }

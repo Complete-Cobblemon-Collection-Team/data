@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:sandyshocks",
   "order": 0,
+  "species": "cobblemon:sandyshocks",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sandyshocks",
+      "layers": [],
       "model": "cobblemon:sandyshocks.geo",
-      "texture": "cobblemon:textures/pokemon/0989_sandyshocks/sandyshocks.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:sandyshocks",
+      "texture": "cobblemon:textures/pokemon/0989_sandyshocks/sandyshocks.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0989_sandyshocks/sandyshocks_shiny.png"
     }
   ]

@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:mothim",
   "order": 1,
+  "species": "cobblemon:mothim",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mothim",
+      "layers": [],
       "model": "cobblemon:mothim.geo",
-      "texture": "cobblemon:textures/pokemon/0414_mothim/mothim.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:mothim",
+      "texture": "cobblemon:textures/pokemon/0414_mothim/mothim.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0414_mothim/mothim_shiny.png"
     }
   ]
