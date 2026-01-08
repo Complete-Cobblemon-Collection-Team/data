@@ -230,6 +230,14 @@
             }
           ]
         },
+{
+                    "name": "locator_seat_1",
+                    "parent": "body",
+                    "pivot": [0, 33.5, -2],
+                    "locators": {
+                        "seat_1": [0, 33.5, -2]
+                    }
+                },
         {
           "name": "chest_right2",
           "parent": "chest_right",

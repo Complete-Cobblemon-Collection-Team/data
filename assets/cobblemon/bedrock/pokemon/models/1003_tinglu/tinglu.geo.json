@@ -1544,6 +1544,14 @@
           ]
         },
         {
+                    "name": "locator_seat_1",
+                    "parent": "body",
+                    "pivot": [0, 25, 5],
+                    "locators": {
+                        "seat_1": [0, 25, 5]
+                    }
+                },
+        {
           "name": "frontlegright",
           "parent": "body",
           "pivot": [

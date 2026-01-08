@@ -265,6 +265,14 @@
           ]
         },
         {
+                    "name": "locator_seat_1",
+                    "parent": "body",
+                    "pivot": [0, 38, 4],
+                    "locators": {
+                        "seat_1": [0, 38, 4]
+                    }
+                },
+        {
           "name": "right_foot",
           "parent": "right_ankle",
           "pivot": [

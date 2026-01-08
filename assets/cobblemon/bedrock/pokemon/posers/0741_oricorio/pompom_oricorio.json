@@ -29,13 +29,13 @@
       "isBattle": false,
       "animations": [
         "look",
-        "q.bedrock('pompom_oricorio', 'ground_idle')"
+        "bedrock(pompom_oricorio, ground_idle)"
       ],
       "quirks": [
         {
           "name": "blink",
           "animations": [
-            "q.bedrock('pompom_oricorio', 'blink')"
+            "bedrock(pompom_oricorio, blink)"
           ]
         }
       ]
@@ -48,13 +48,13 @@
       ],
       "animations": [
         "look",
-        "q.bedrock('pompom_oricorio', 'ground_walk')"
+        "bedrock(pompom_oricorio, ground_walk)"
       ],
       "quirks": [
         {
           "name": "blink",
           "animations": [
-            "q.bedrock('pompom_oricorio', 'blink')"
+            "bedrock(pompom_oricorio, blink)"
           ]
         }
       ]
@@ -68,13 +68,13 @@
       "isBattle": true,
       "animations": [
         "look",
-        "q.bedrock('pompom_oricorio', 'pose')"
+        "bedrock(pompom_oricorio, pose)"
       ],
       "quirks": [
         {
           "name": "blink",
           "animations": [
-            "q.bedrock('pompom_oricorio', 'blink')"
+            "bedrock(pompom_oricorio, blink)"
           ]
         }
       ]

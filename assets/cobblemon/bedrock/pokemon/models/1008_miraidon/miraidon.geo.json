@@ -938,6 +938,14 @@
 					]
 				},
 				{
+                    "name": "locator_seat_1",
+                    "parent": "body",
+                    "pivot": [0, 22, 8],
+                    "locators": {
+                        "seat_1": [0, 22, 8]
+                    }
+                },
+				{
 					"name": "head",
 					"parent": "neck5",
 					"pivot": [-0.01, 23.50242, -66.92917],

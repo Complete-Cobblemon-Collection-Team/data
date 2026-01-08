@@ -2533,6 +2533,14 @@
           ]
         },
         {
+                    "name": "locator_seat_1",
+                    "parent": "head",
+                    "pivot": [0, 45, 6],
+                    "locators": {
+                        "seat_1": [0, 45, 6]
+                    }
+                },
+        {
           "name": "right_fingers",
           "parent": "right_wrist",
           "pivot": [
