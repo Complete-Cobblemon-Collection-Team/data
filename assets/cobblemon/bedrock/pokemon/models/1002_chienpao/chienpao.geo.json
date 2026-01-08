@@ -33,6 +33,14 @@
           ]
         },
         {
+          "name": "locator_seat_1",
+          "parent": "body",
+          "pivot": [0, 15, 2],
+          "locators": {
+            "seat_1": [0, 15, 2]
+          }
+        },
+        {
           "name": "torso",
           "parent": "body",
           "pivot": [
