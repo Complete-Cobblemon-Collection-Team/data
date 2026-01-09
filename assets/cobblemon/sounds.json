@@ -1,4 +1,74 @@
 {
+  "pokemon.rattata.cry": {
+    "sounds": [
+      "cobblemon:pokemon/rattata/rattata_cry"
+    ]
+  },
+  "pokemon.dugtrio.cry": {
+    "sounds": [
+      "cobblemon:pokemon/dugtrio/dugtrio_cry"
+    ]
+  },
+  "pokemon.bellsprout.cry": {
+    "sounds": [
+      "cobblemon:pokemon/bellsprout/bellsprout_cry"
+    ]
+  },
+  "pokemon.weepinbell.cry": {
+    "sounds": [
+      "cobblemon:pokemon/weepinbell/weepinbell_cry"
+    ]
+  },
+  "pokemon.treecko.cry": {
+    "sounds": [
+      "cobblemon:pokemon/treecko/treecko_cry"
+    ]
+  },
+  "pokemon.grovyle.cry": {
+    "sounds": [
+      "cobblemon:pokemon/grovyle/grovyle_cry"
+    ]
+  },
+  "pokemon.sceptile.cry": {
+    "sounds": [
+      "cobblemon:pokemon/sceptile/sceptile_cry"
+    ]
+  },
+  "pokemon.zigzagoon.cry": {
+    "sounds": [
+      "cobblemon:pokemon/zigzagoon/zigzagoon_cry"
+    ]
+  },
+  "pokemon.linoone.cry": {
+    "sounds": [
+      "cobblemon:pokemon/linoone/linoone_cry"
+    ]
+  },
+  "pokemon.seedot.cry": {
+    "sounds": [
+      "cobblemon:pokemon/seedot/seedot_cry"
+    ]
+  },
+  "pokemon.nuzleaf.cry": {
+    "sounds": [
+      "cobblemon:pokemon/nuzleaf/nuzleaf_cry"
+    ]
+  },
+  "pokemon.shiftry.cry": {
+    "sounds": [
+      "cobblemon:pokemon/shiftry/shiftry_cry"
+    ]
+  },
+  "pokemon.regice.cry": {
+    "sounds": [
+      "cobblemon:pokemon/regice/regice_cry"
+    ]
+  },
+  "pokemon.registeel.cry": {
+    "sounds": [
+      "cobblemon:pokemon/registeel/registeel_cry"
+    ]
+  },
   "pokemon.rotom.cry": {
     "sounds": [
       "cobblemon:pokemon/rotom/rotom_cry"
