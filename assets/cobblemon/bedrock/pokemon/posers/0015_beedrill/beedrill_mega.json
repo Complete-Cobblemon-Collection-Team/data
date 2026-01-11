@@ -1,38 +1,75 @@
 {
+  "portraitScale": 1.9,
+  "portraitTranslation": [
+    0.05,
+    0.9,
+    0.0
+  ],
+  "profileScale": 0.8,
+  "profileTranslation": [
+    -0.1,
+    0.9,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('beedrill_mega', 'cry')",
-    "physical": "q.bedrock_primary('beedrill_mega', 'attack', q.curve('symmetrical_wide'))",
     "recoil": "q.bedrock_stateful('beedrill_mega', 'recoil', q.curve('one'))",
+    "physical": "q.bedrock_primary('beedrill_mega', 'attack', q.curve('symmetrical_wide'))",
     "special": "q.bedrock_primary('beedrill_mega', 'attack', q.curve('symmetrical_wide'))"
   },
-  "portraitScale": 1.9,
-  "portraitTranslation": [0.05, 0.9, 0.0],
   "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('beedrill_mega', 'air_idle')"
+      ]
+    },
     "battle-standing": {
-      "animations": ["q.look('head')", "q.bedrock('beedrill_mega', 'battle_idle')"],
+      "poseTypes": [
+        "STAND",
+        "FLY",
+        "WALK"
+      ],
       "isBattle": true,
-      "poseTypes": ["STAND", "FLY", "WALK"]
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('beedrill_mega', 'battle_idle')"
+      ]
     },
     "flying": {
-      "animations": ["q.look('head')", "q.bedrock('beedrill_mega', 'air_fly')"],
+      "poseTypes": [
+        "FLY"
+      ],
       "isBattle": false,
-      "poseTypes": ["FLY"]
-    },
-    "sleeping": {
-      "animations": ["q.bedrock('beedrill_mega', 'sleep')"],
-      "poseTypes": ["SLEEP"]
-    },
-    "standing": {
-      "animations": ["q.look('head')", "q.bedrock('beedrill_mega', 'air_idle')"],
-      "isBattle": false,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('beedrill_mega', 'air_fly')"
+      ]
     },
     "walking": {
-      "animations": ["q.look('head')", "q.bedrock('beedrill_mega', 'air_fly')"],
+      "poseTypes": [
+        "WALK"
+      ],
       "isBattle": false,
-      "poseTypes": ["WALK"]
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('beedrill_mega', 'air_fly')"
+      ]
+    },
+    "sleeping": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('beedrill_mega', 'sleep')"
+      ]
     }
-  },
-  "profileScale": 0.8,
-  "profileTranslation": [-0.1, 0.9, 0.0]
+  }
 }

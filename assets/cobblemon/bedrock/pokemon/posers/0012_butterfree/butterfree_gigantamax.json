@@ -1,31 +1,60 @@
 {
   "portraitScale": 2.4,
-  "portraitTranslation": [-0.1, -0.5, 0],
+  "portraitTranslation": [
+    -0.1,
+    -0.5,
+    0
+  ],
+  "profileScale": 0.7,
+  "profileTranslation": [
+    0.1,
+    0.8,
+    0
+  ],
+  "rootBone": "butterfree",
   "poses": {
-    "battle-flying": {
-      "animations": ["q.look('head_ai')", "q.bedrock('butterfree_gmax', 'air_idle')"],
-      "isBattle": true,
-      "poseTypes": ["HOVER"]
+    "portrait": {
+      "poseTypes": [
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('butterfree_gmax', 'battle_idle')"
+      ]
     },
     "battle-standing": {
-      "animations": ["q.look('head_ai')", "q.bedrock('butterfree_gmax', 'battle_idle')"],
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": true,
       "isTouchingWater": false,
-      "poseTypes": ["STAND"]
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('butterfree_gmax', 'battle_idle')"
+      ]
+    },
+    "battle-flying": {
+      "poseTypes": [
+        "HOVER"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('butterfree_gmax', 'air_idle')"
+      ]
     },
     "hover": {
-      "animations": ["q.look('head_ai')", "q.bedrock('butterfree_gmax', 'air_idle')"],
+      "poseTypes": [
+        "HOVER"
+      ],
       "isBattle": false,
-      "poseTypes": ["HOVER"]
-    },
-    "portrait": {
-      "animations": ["q.look('head_ai')", "q.bedrock('butterfree_gmax', 'battle_idle')"],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "poseTypes": ["PORTRAIT", "PROFILE"]
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('butterfree_gmax', 'air_idle')"
+      ]
     }
-  },
-  "profileScale": 0.7,
-  "profileTranslation": [0.1, 0.8, 0],
-  "rootBone": "butterfree"
+  }
 }
