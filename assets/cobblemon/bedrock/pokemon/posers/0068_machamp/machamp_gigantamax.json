@@ -5,10 +5,10 @@
     1.2,
     0
   ],
-  "profileScale": 0.75,
+  "profileScale": 0.6,
   "profileTranslation": [
     -0.1,
-    0.66,
+    0.9,
     0
   ],
   "rootBone": "machamp",

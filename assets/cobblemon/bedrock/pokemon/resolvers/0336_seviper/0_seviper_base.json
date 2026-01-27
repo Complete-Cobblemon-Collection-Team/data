@@ -1,24 +1,17 @@
 {
-  "species": "cobblemon:seviper",
   "order": 0,
+  "species": "cobblemon:seviper",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:seviper",
+      "layers": [{}],
       "model": "cobblemon:seviper.geo",
-      "texture": "cobblemon:textures/pokemon/0336_seviper/seviper.png",
-      "layers": [
-        {}
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0336_seviper/seviper_shiny.png",
-      "layers": [
-        {}
-      ]
+      "poser": "cobblemon:seviper",
+      "texture": "cobblemon:textures/pokemon/0336_seviper/seviper.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [{}],
+      "texture": "cobblemon:textures/pokemon/0336_seviper/seviper_shiny.png"
     }
   ]
 }

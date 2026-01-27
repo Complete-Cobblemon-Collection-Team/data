@@ -1,76 +1,38 @@
 {
-  "portraitScale": 1.81,
-  "portraitTranslation": [
-    -0.65,
-    2.63,
-    0
-  ],
-  "profileScale": 0.47,
-  "profileTranslation": [
-    0,
-    1.1,
-    0
-  ],
   "animations": {
-    "faint": "q.bedrock_primary('moltres_galarian', 'faint', q.curve('one'))",
     "cry": "q.bedrock_stateful('moltres_galarian', 'cry', q.curve('symmetrical_wide'))",
-    "recoil": "q.bedrock_stateful('moltres_galarian', 'recoil')",
+    "faint": "q.bedrock_primary('moltres_galarian', 'faint', q.curve('one'))",
     "physical": "q.bedrock_primary('moltres_galarian', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('moltres_galarian', 'recoil')",
     "special": "q.bedrock_primary('moltres_galarian', 'special', q.curve('symmetrical_wide'))",
     "status": "q.bedrock_primary('moltres_galarian', 'status', q.curve('symmetrical_wide'))"
   },
+  "portraitScale": 1.81,
+  "portraitTranslation": [-0.65, 2.63, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('moltres_galarian', 'ground_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('moltres_galarian', 'ground_idle')"
-      ]
-    },
-    "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "FLOAT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('moltres_galarian', 'ground_idle')"
-      ]
-    },
-    "walking": {
-      "poseTypes": [
-        "WALK",
-        "SWIM"
-      ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('moltres_galarian', 'ground_walk')"
-      ]
+      "poseTypes": ["STAND"]
     },
     "float": {
-      "poseTypes": [
-        "HOVER"
-      ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('moltres_galarian', 'air_idle')"
-      ]
+      "animations": ["q.look('head')", "q.bedrock('moltres_galarian', 'air_idle')"],
+      "poseTypes": ["HOVER"]
     },
     "fly": {
-      "poseTypes": [
-        "FLY"
-      ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('moltres_galarian', 'air_fly')"
-      ]
+      "animations": ["q.look('head')", "q.bedrock('moltres_galarian', 'air_fly')"],
+      "poseTypes": ["FLY"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('moltres_galarian', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('moltres_galarian', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"]
     }
-  }
+  },
+  "profileScale": 0.47,
+  "profileTranslation": [0, 1.1, 0]
 }

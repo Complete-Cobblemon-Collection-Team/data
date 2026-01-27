@@ -1,32 +1,29 @@
 {
-  "species": "cobblemon:blacephalon",
   "order": 0,
+  "species": "cobblemon:blacephalon",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blacephalon",
-      "model": "cobblemon:blacephalon.geo",
-      "texture": "cobblemon:textures/pokemon/0806_blacephalon/blacephalon.png",
       "layers": [
         {
-          "name": "glow",
           "emissive": true,
+          "name": "glow",
           "texture": "cobblemon:textures/pokemon/0806_blacephalon/blacephalon_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0806_blacephalon/blacephalon_shiny.png",
+      "model": "cobblemon:blacephalon.geo",
+      "poser": "cobblemon:blacephalon",
+      "texture": "cobblemon:textures/pokemon/0806_blacephalon/blacephalon.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "glow",
           "emissive": true,
+          "name": "glow",
           "texture": "cobblemon:textures/pokemon/0806_blacephalon/blacephalon_emissive.png"
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0806_blacephalon/blacephalon_shiny.png"
     }
   ]
 }

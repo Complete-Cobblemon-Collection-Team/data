@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:brutebonnet",
   "order": 0,
+  "species": "cobblemon:brutebonnet",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:brutebonnet",
+      "layers": [],
       "model": "cobblemon:brutebonnet.geo",
-      "texture": "cobblemon:textures/pokemon/0986_brutebonnet/brutebonnet.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:brutebonnet",
+      "texture": "cobblemon:textures/pokemon/0986_brutebonnet/brutebonnet.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0986_brutebonnet/brutebonnet_shiny.png"
     }
   ]

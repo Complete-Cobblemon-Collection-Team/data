@@ -1,59 +1,34 @@
 {
+  "faint": "bedrock(shaymin, ground_sleep, true)",
   "head": "head",
   "portraitScale": 1.5,
-  "portraitTranslation": [
-    -0.2,
-    -0.4,
-    0
-  ],
-  "profileScale": 0.7,
-  "profileTranslation": [
-    0,
-    0.4,
-    0
-  ],
-  "faint": "bedrock(shaymin, ground_sleep, true)",
+  "portraitTranslation": [-0.2, -0.4, 0],
   "poses": {
+    "sleeping": {
+      "animations": ["bedrock(shaymin, ground_sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
     "standing": {
+      "animations": ["bedrock(shaymin, ground_idle)"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "bedrock(shaymin, ground_idle)"
-      ],
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(shaymin, blink_alternate)"
-          ]
+          "animations": ["bedrock(shaymin, blink_alternate)"],
+          "name": "blink"
         }
-      ]
+      ],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["bedrock(shaymin, ground_walk)"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(shaymin, ground_walk)"
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "bedrock(shaymin, ground_sleep)"
-      ]
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.4, 0]
 }

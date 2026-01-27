@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:carbink",
   "order": 0,
+  "species": "cobblemon:carbink",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:carbink",
+      "layers": [],
       "model": "cobblemon:carbink.geo",
-      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:carbink",
+      "texture": "cobblemon:textures/pokemon/0703_carbink/carbink.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0703_carbink/carbink_shiny.png"
     }
   ]

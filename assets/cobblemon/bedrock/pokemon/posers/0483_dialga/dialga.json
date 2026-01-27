@@ -1,178 +1,97 @@
 {
-  "portraitScale": 0.72,
-  "portraitTranslation": [
-    -1.43,
-    4.65,
-    0
-  ],
-  "profileScale": 0.14,
-  "profileTranslation": [
-    0,
-    1.46,
-    -20
-  ],
+  "animations": {},
   "firstPersonCameraOffset": {
-    "seat_1": [
-      0,
-      0.45,
-      0
-    ]
+    "seat_1": [0, 0.45, 0]
   },
-  "thirdPersonCameraOffset": {
-    "seat_1": [
-      0,
-      2,
-      5
-    ],
-    "seat_1_reverse": [
-      0,
-      0.45,
-      1
-    ]
-  },
-  "thirdPersonCameraOffsetNoViewBobbing": {
-    "seat_1": [
-      0,
-      2,
-      5
-    ],
-    "seat_1_reverse": [
-      0,
-      0.45,
-      1
-    ]
-  },
-  "animations": {
-  },
+  "portraitScale": 0.72,
+  "portraitTranslation": [-1.43, 4.65, 0],
   "poses": {
     "battle-standing": {
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "WALK"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'battle_idle')"],
       "condition": "!q.in_air && !q.is_sprinting",
       "isBattle": true,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'battle_idle')"
-      ]
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
     },
-    "standing": {
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'ground_walk')"],
+      "condition": "!q.is_sprinting",
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 5
+    },
+    "fly": {
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'air_fly2')"],
+      "condition": "!q.is_sprinting && !q.is_gliding",
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "glide": {
+      "animations": [
+        "q.look('head')", "q.bedrock('dialga', 'air_fly')",
+        {
+          "animation": "q.bedrock('charizard', 'ride_ground_run')",
+          "condition": "q.is_ridden"
+        }
       ],
-      "condition": "!q.in_air",
+      "condition": "q.is_gliding",
       "isBattle": false,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'ground_idle')"
-      ]
-    },
-    "walking": {
-      "transformTicks": 8,
-      "poseTypes": [
-        "WALK"
-      ],
-      "condition": "!q.in_air && !q.is_sprinting",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'ground_walk')"
-      ]
+      "poseTypes": ["FLY"]
     },
     "hover": {
-      "transformTicks": 5,
-      "poseTypes": [
-        "HOVER"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'air_idle')"],
       "condition": "!q.in_air && !q.is_sprinting",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'air_idle')"
-      ]
+      "poseTypes": ["HOVER"],
+      "transformTicks": 5
     },
     "in-air": {
-      "poseTypes": [
-        "STAND",
-        "WALK"
-      ],
-      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'air_idle')"],
       "condition": "q.in_air && q.is_ridden",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'air_idle')"
-      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "WALK"],
       "transformTicks": 2,
       "transformToTicks": 2
     },
-    "float": {
-      "transformTicks": 5,
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "condition": "!q.is_sprinting",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'ground_walk')"
-      ]
-    },
     "run": {
-      "poseTypes": [
-        "STAND",
-        "WALK"
-      ],
-      "isBattle": false,
-      "condition": "!q.in_air && q.is_sprinting",
       "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'ground_run')",
+        "q.look('head')", "q.bedrock('dialga', 'ground_run')",
         {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('dialga', 'ride_ground_run')"
+          "animation": "q.bedrock('dialga', 'ride_ground_run')",
+          "condition": "q.is_ridden"
         }
       ],
+      "condition": "!q.in_air && q.is_sprinting",
+      "isBattle": false,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'ground_idle')"],
+      "condition": "!q.in_air",
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "transformTicks": 10
     },
     "swim": {
-      "transformTicks": 8,
-      "poseTypes": [
-        "SWIM"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'ground_walk')"],
       "condition": "!q.is_sprinting",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'ground_walk')"
-      ]
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
     },
-    "fly": {
-      "transformTicks": 5,
-      "poseTypes": [
-        "FLY"
-      ],
-      "condition": "!q.is_sprinting && !q.is_gliding",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'air_fly2')"
-      ]
-    },
-    "glide": {
-      "poseTypes": [
-        "FLY"
-      ],
-      "isBattle": false,
-      "condition": "q.is_gliding",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('dialga', 'air_fly')",
-        {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('charizard', 'ride_ground_run')"
-        }
-      ]
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('dialga', 'ground_walk')"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
     }
+  },
+  "profileScale": 0.14,
+  "profileTranslation": [0, 1.46, -20],
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 2, 5],
+    "seat_1_reverse": [0, 0.45, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 2, 5],
+    "seat_1_reverse": [0, 0.45, 1]
   }
 }

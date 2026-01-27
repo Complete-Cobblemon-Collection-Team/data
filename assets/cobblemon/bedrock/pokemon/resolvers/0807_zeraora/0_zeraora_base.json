@@ -1,34 +1,31 @@
 {
-  "species": "cobblemon:zeraora",
   "order": 0,
+  "species": "cobblemon:zeraora",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:zeraora",
-      "model": "cobblemon:zeraora.geo",
-      "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora.png",
       "layers": [
         {
-          "name": "trans",
           "emissive": true,
-          "translucent": true,
-          "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora_emissive.png"
+          "name": "trans",
+          "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora_emissive.png",
+          "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora_shiny.png",
+      "model": "cobblemon:zeraora.geo",
+      "poser": "cobblemon:zeraora",
+      "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "trans",
           "emissive": true,
-          "translucent": true,
-          "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora_emissive_shiny.png"
+          "name": "trans",
+          "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora_emissive_shiny.png",
+          "translucent": true
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0807_zeraora/zeraora_shiny.png"
     }
   ]
 }

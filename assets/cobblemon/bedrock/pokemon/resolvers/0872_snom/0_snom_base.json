@@ -1,20 +1,17 @@
 {
-  "species": "cobblemon:snom",
   "order": 0,
+  "species": "cobblemon:snom",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:snom",
+      "layers": [],
       "model": "cobblemon:snom.geo",
-      "texture": "cobblemon:textures/pokemon/0872_snom/snom.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0872_snom/snom_shiny.png",
-      "layers": []
+      "poser": "cobblemon:snom",
+      "texture": "cobblemon:textures/pokemon/0872_snom/snom.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0872_snom/snom_shiny.png"
     }
   ]
 }

@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:wurmple",
   "order": 0,
+  "species": "cobblemon:wurmple",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:wurmple",
+      "layers": [],
       "model": "cobblemon:wurmple.geo",
-      "texture": "cobblemon:textures/pokemon/0265_wurmple/wurmple.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:wurmple",
+      "texture": "cobblemon:textures/pokemon/0265_wurmple/wurmple.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0265_wurmple/wurmple_shiny.png"
     }
   ]

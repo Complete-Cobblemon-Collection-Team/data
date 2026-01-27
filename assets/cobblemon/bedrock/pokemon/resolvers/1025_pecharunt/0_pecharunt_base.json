@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:pecharunt",
   "order": 0,
+  "species": "cobblemon:pecharunt",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:pecharunt",
+      "layers": [],
       "model": "cobblemon:pecharunt.geo",
-      "texture": "cobblemon:textures/pokemon/1025_pecharunt/pecharunt.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:pecharunt",
+      "texture": "cobblemon:textures/pokemon/1025_pecharunt/pecharunt.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/1025_pecharunt/pecharunt_shiny.png"
     }
   ]

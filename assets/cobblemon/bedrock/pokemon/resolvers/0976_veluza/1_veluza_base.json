@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:veluza",
   "order": 1,
+  "species": "cobblemon:veluza",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:veluza",
+      "layers": [],
       "model": "cobblemon:veluza.geo",
-      "texture": "cobblemon:textures/pokemon/0976_veluza/veluza.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:veluza",
+      "texture": "cobblemon:textures/pokemon/0976_veluza/veluza.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0976_veluza/veluza_shiny.png"
     }
   ]

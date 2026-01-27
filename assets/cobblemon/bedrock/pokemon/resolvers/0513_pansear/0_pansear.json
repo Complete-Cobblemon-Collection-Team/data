@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:pansear",
   "order": 0,
+  "species": "cobblemon:pansear",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:pansear",
+      "layers": [],
       "model": "cobblemon:pansear.geo",
-      "texture": "cobblemon:textures/pokemon/0513_pansear/pansear.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:pansear",
+      "texture": "cobblemon:textures/pokemon/0513_pansear/pansear.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0513_pansear/pansear_shiny.png"
     }
   ]

@@ -1,63 +1,31 @@
 {
-  "portraitScale": 1.0,
-  "portraitTranslation": [
-    0.15,
-    2.15,
-    0
-  ],
-  "profileScale": 0.5,
-  "profileTranslation": [
-    0.0,
-    1.20,
-    0
-  ],
   "animations": {
     "faint": "q.bedrock_primary('mewtwo_mega_y', 'faint', q.curve('symmetrical_wide'))",
     "physical": "q.bedrock_primary('mewtwo_mega_y', 'physical', q.curve('symmetrical_wide'))",
-    "special": "q.bedrock_primary('mewtwo_mega_y', 'special', q.curve('symmetrical_wide'))",
-    "recoil": "q.bedrock_primary('mewtwo_mega_y', 'recoil', q.curve('symmetrical_wide'))"
+    "recoil": "q.bedrock_primary('mewtwo_mega_y', 'recoil', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('mewtwo_mega_y', 'special', q.curve('symmetrical_wide'))"
   },
+  "portraitScale": 1.0,
+  "portraitTranslation": [0.15, 2.15, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('mewtwo_mega_y', 'battle_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('mewtwo_mega_y', 'battle_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('mewtwo_mega_y', 'blink')"
-      ]
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('mewtwo_mega_y', 'blink')"]
     },
     "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('mewtwo_mega_y', 'ground_idle')"],
       "isBattle": false,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('mewtwo_mega_y', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('mewtwo_mega_y', 'blink')"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('mewtwo_mega_y', 'blink')"]
     },
     "walking": {
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('mewtwo_mega_y', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('mewtwo_mega_y', 'blink')"
-      ]
+      "animations": ["q.look('head')", "q.bedrock('mewtwo_mega_y', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('mewtwo_mega_y', 'blink')"]
     }
-  }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 1.20, 0]
 }

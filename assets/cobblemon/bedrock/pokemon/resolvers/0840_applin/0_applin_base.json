@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:applin",
   "order": 0,
+  "species": "cobblemon:applin",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:applin",
+      "layers": [],
       "model": "cobblemon:applin.geo",
-      "texture": "cobblemon:textures/pokemon/0840_applin/applin.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:applin",
+      "texture": "cobblemon:textures/pokemon/0840_applin/applin.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0840_applin/applin_shiny.png"
     }
   ]

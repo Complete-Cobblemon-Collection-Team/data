@@ -1,35 +1,29 @@
 {
-  "species": "cobblemon:terapagos",
   "order": 1,
+  "species": "cobblemon:terapagos",
   "variations": [
     {
-      "aspects": [
-        "terastal-form"
+      "aspects": ["terastal-form"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal.png"
+        }
       ],
-      "poser": "cobblemon:terapagos_terastal",
       "model": "cobblemon:terapagos_terastal.geo",
-      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal.png",
+      "poser": "cobblemon:terapagos_terastal",
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal.png"
+    }, {
+      "aspects": ["terastal-form", "shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal_shiny.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "terastal-form",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal_shiny.png",
-      "layers": [
-        {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal_shiny.png",
-          "emissive": true
-        }
-      ]
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal_shiny.png"
     }
   ]
 }

@@ -1,21 +1,15 @@
 {
-  "species": "cobblemon:shaymin",
   "order": 1,
+  "species": "cobblemon:shaymin",
   "variations": [
     {
-      "aspects": [
-        "sky-forme"
-      ],
-      "poser": "cobblemon:shaymin_sky",
+      "aspects": ["sky-forme"],
+      "layers": [],
       "model": "cobblemon:shaymin_sky.geo",
-      "texture": "cobblemon:textures/pokemon/0492_shaymin/shaymin_sky.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "sky-forme",
-        "shiny"
-      ],
+      "poser": "cobblemon:shaymin_sky",
+      "texture": "cobblemon:textures/pokemon/0492_shaymin/shaymin_sky.png"
+    }, {
+      "aspects": ["sky-forme", "shiny"],
       "texture": "cobblemon:textures/pokemon/0492_shaymin/shaymin_sky_shiny.png"
     }
   ]

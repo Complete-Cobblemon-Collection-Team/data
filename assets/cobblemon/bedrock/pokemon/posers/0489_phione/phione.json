@@ -1,51 +1,27 @@
 {
   "head": "head",
   "portraitScale": 0.8,
-  "portraitTranslation": [
-    0,
-    0.7,
-    0
-  ],
-  "profileScale": 0.8,
-  "profileTranslation": [
-    0,
-    0.7,
-    0
-  ],
+  "portraitTranslation": [0, 0.7, 0],
   "poses": {
     "standing": {
+      "animations": ["look", "bedrock(phione, ground_idle)"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "look",
-        "bedrock(phione, ground_idle)"
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(phione, ground_walk)"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
     },
     "swimming": {
+      "animations": ["bedrock(phione, ground_walk)"],
       "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "bedrock(phione, ground_walk)"
-      ]
+      "poseTypes": ["SWIM"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(phione, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.7, 0]
 }

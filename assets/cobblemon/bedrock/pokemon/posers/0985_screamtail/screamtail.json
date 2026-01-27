@@ -1,119 +1,71 @@
 {
-  "portraitScale": 1.6,
-  "portraitTranslation": [
-    -0.4,
-    0,
-    0
-  ],
-  "profileScale": 0.7,
-  "profileTranslation": [
-    0,
-    0.6,
-    -1.8
-  ],
   "animations": {
     "cry": "bedrock('screamtail', 'cry')",
-    "recoil": "q.bedrock_stateful('screamtail', 'recoil')",
     "physical": "q.bedrock_primary('screamtail', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('screamtail', 'recoil')",
     "special": "q.bedrock_primary('screamtail', 'special', q.curve('symmetrical_wide'))",
     "status": "q.bedrock_stateful('screamtail', 'cry', q.curve('symmetrical_wide'))"
   },
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.4, 0, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": [
-        "STAND",
-        "WALK"
-      ],
+      "animations": ["q.bedrock('screamtail', 'battle_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.bedrock('screamtail', 'battle_idle')"
-      ],
+      "poseTypes": ["STAND", "WALK"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(screamtail, blink)"
-          ]
+          "animations": ["bedrock(screamtail, blink)"],
+          "name": "blink"
         },
         {
-          "name": "quirk",
-          "animations": [
-            "bedrock(screamtail, ear_flick)"
-          ]
-        }
-      ]
-    },
-    "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "animations": [
-        "q.bedrock('screamtail', 'ground_idle')"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(screamtail, blink)"
-          ]
-        },
-        {
-          "name": "quirk",
-          "animations": [
-            "bedrock(screamtail, ear_flick)"
-          ]
-        },
-        {
-          "name": "quirk2",
-          "animations": [
-            "bedrock(screamtail, cry)"
-          ]
-        }
-      ]
-    },
-    "walking": {
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('screamtail', 'ground_walk')"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(screamtail, blink)"
-          ]
+          "animations": ["bedrock(screamtail, ear_flick)"],
+          "name": "quirk"
         }
       ]
     },
     "float": {
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "q.bedrock('screamtail', 'ground_walk')"
+      "animations": ["q.bedrock('screamtail', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('screamtail', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('screamtail', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(screamtail, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(screamtail, ear_flick)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(screamtail, cry)"],
+          "name": "quirk2"
+        }
       ]
     },
     "swim": {
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "q.bedrock('screamtail', 'ground_walk')"
-      ]
+      "animations": ["q.bedrock('screamtail', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
     },
-    "sleep": {
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "q.bedrock('screamtail', 'sleep')"
+    "walking": {
+      "animations": ["q.bedrock('screamtail', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(screamtail, blink)"],
+          "name": "blink"
+        }
       ]
     }
-  }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.6, -1.8]
 }

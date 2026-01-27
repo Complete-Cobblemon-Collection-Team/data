@@ -1,32 +1,29 @@
 {
-  "species": "cobblemon:ironcrown",
   "order": 0,
+  "species": "cobblemon:ironcrown",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ironcrown",
-      "model": "cobblemon:ironcrown.geo",
-      "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown.png",
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_shiny.png",
+      "model": "cobblemon:ironcrown.geo",
+      "poser": "cobblemon:ironcrown",
+      "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_emissive.png"
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/1023_ironcrown/ironcrown_shiny.png"
     }
   ]
 }

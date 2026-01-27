@@ -1,24 +1,21 @@
 {
-  "species": "cobblemon:marshadow",
   "order": 0,
+  "species": "cobblemon:marshadow",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:marshadow",
-      "model": "cobblemon:marshadow.geo",
-      "texture": "cobblemon:textures/pokemon/0802_marshadow/marshadow.png",
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0802_marshadow/marshadow_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0802_marshadow/marshadow_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
+      "model": "cobblemon:marshadow.geo",
+      "poser": "cobblemon:marshadow",
+      "texture": "cobblemon:textures/pokemon/0802_marshadow/marshadow.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0802_marshadow/marshadow_shiny.png"
     }
   ]
