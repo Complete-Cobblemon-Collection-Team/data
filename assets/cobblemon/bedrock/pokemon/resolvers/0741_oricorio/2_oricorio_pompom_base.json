@@ -3,22 +3,17 @@
   "order": 2,
   "variations": [
     {
-      "aspects": [
-        "pom_pom-style"
-      ],
+      "aspects": ["pom-pom-style"],
       "poser": "cobblemon:pompom_oricorio",
       "model": "cobblemon:pompom_oricorio.geo",
-      "texture": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pom_pom.png",
+      "texture": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pompom.png",
       "layers": []
     },
     {
-      "aspects": [
-        "pom_pom-style",
-        "shiny"
-      ],
+      "aspects": ["shiny", "pom-pom-style"],
       "poser": "cobblemon:pompom_oricorio",
       "model": "cobblemon:pompom_oricorio.geo",
-      "texture": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pom_pom_shiny.png",
+      "texture": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pompom_shiny.png",
       "layers": []
     }
   ]

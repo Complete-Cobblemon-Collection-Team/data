@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:skuntank",
   "order": 0,
+  "species": "cobblemon:skuntank",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:skuntank",
+      "layers": [],
       "model": "cobblemon:skuntank.geo",
-      "texture": "cobblemon:textures/pokemon/0435_skuntank/skuntank.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:skuntank",
+      "texture": "cobblemon:textures/pokemon/0435_skuntank/skuntank.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0435_skuntank/skuntank_shiny.png"
     }
   ]

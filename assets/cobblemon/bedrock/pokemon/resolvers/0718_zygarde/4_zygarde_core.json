@@ -1,23 +1,17 @@
 {
-  "species": "cobblemon:zygarde",
   "order": 4,
+  "species": "cobblemon:zygarde",
   "variations": [
     {
-      "aspects": [
-        "core-percent"
-      ],
-      "poser": "cobblemon:zygardecore",
+      "aspects": ["core-percent"],
+      "layers": [],
       "model": "cobblemon:zygardecore.geo",
-      "texture": "cobblemon:textures/pokemon/0718_zygarde/zygarde_core.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny",
-        "core-percent"
-      ],
-      "texture": "cobblemon:textures/pokemon/0718_zygarde/zygarde_core_shiny.png",
-      "layers": []
+      "poser": "cobblemon:zygardecore",
+      "texture": "cobblemon:textures/pokemon/0718_zygarde/zygarde_core.png"
+    }, {
+      "aspects": ["shiny", "core-percent"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0718_zygarde/zygarde_core_shiny.png"
     }
   ]
 }

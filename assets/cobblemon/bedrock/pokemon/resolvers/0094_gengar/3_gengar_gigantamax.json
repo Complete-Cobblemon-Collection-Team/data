@@ -1,37 +1,31 @@
 {
-  "species": "cobblemon:gengar",
   "order": 3,
+  "species": "cobblemon:gengar",
   "variations": [
     {
-      "aspects": [
-        "gmax"
-      ],
-      "poser": "cobblemon:gengar_gigantamax",
-      "model": "cobblemon:gengar_gmax.geo",
-      "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax.png",
+      "aspects": ["gmax"],
       "layers": [
         {
+          "emissive": true,
           "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax_emissive.png",
-          "emissive": true,
           "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "gmax",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax_shiny.png",
+      "model": "cobblemon:gengar_gmax.geo",
+      "poser": "cobblemon:gengar_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax.png"
+    }, {
+      "aspects": ["gmax", "shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax_shiny_emissive.png",
-          "emissive": true,
           "translucent": true
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax_shiny.png"
     }
   ]
 }

@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:aromatisse",
   "order": 1,
+  "species": "cobblemon:aromatisse",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:aromatisse",
+      "layers": [],
       "model": "cobblemon:aromatisse.geo",
-      "texture": "cobblemon:textures/pokemon/0683_aromatisse/aromatisse.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:aromatisse",
+      "texture": "cobblemon:textures/pokemon/0683_aromatisse/aromatisse.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0683_aromatisse/aromatisse_shiny.png"
     }
   ]

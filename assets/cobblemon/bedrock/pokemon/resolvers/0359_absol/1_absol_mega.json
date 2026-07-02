@@ -1,25 +1,19 @@
 {
-  "species": "cobblemon:absol",
   "order": 1,
+  "species": "cobblemon:absol",
   "variations": [
     {
-      "aspects": [
-        "mega"
-      ],
-      "poser": "cobblemon:absol_mega",
+      "aspects": ["mega"],
+      "layers": [],
       "model": "cobblemon:absol_mega.geo",
-      "texture": "cobblemon:textures/pokemon/0359_absol/absol_mega.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "mega",
-        "shiny"
-      ],
       "poser": "cobblemon:absol_mega",
+      "texture": "cobblemon:textures/pokemon/0359_absol/absol_mega.png"
+    }, {
+      "aspects": ["mega", "shiny"],
+      "layers": [],
       "model": "cobblemon:absol_mega.geo",
-      "texture": "cobblemon:textures/pokemon/0359_absol/absol_mega_shiny.png",
-      "layers": []
+      "poser": "cobblemon:absol_mega",
+      "texture": "cobblemon:textures/pokemon/0359_absol/absol_mega_shiny.png"
     }
   ]
 }

@@ -1,86 +1,58 @@
 {
-  "portraitScale": 1.25,
-  "portraitTranslation": [-1, 1.2, 0],
-  "profileScale": 0.35,
-  "profileTranslation": [0, 1.15, 0],
-  "rootBone": "latios",
   "animations": {
     "cry": "q.bedrock_stateful('latios2', 'cry')"
   },
+  "portraitScale": 1.25,
+  "portraitTranslation": [-1, 1.2, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": ["STAND"],
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'battle_idle')"],
       "isBattle": true,
       "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('latios2', 'battle_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('latios2', 'blink')"
-      ]
-    },
-    "standing": {
-      "poseTypes": ["STAND", "NONE"],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "condition": "!q.in_air",
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('latios2', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('latios2', 'blink')"
-      ]
-    },
-    "walking": {
-      "poseTypes": ["WALK"],
-      "isBattle": false,
-      "isTouchingWater": false,
-      "condition": "!q.in_air && !q.is_sprinting",
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('latios2', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('latios2', 'blink')"
-      ]
-    },
-    "hover": {
-      "poseTypes": ["HOVER"],
-      "isBattle": false,
-	  "isTouchingWater": false,
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('latios2', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('latios2', 'blink')"
-      ]
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
     },
     "fly": {
-      "poseTypes": ["FLY"],
-      "isBattle": false,
-	  "isTouchingWater": false,
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'air_sprint')"],
       "condition": "!q.is_gliding",
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('latios2', 'air_sprint')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('latios2', 'blink')"
-      ]
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
     },
-	"swimming": {
-      "poseName": "swimming",
+    "hover": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'ground_idle')"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'ground_idle')"],
+      "condition": "!q.in_air",
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["STAND", "NONE"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "swimming": {
+      "animations": ["q.look('head')", "q.bedrock('latios2', 'air_sprint')"],
       "isBattle": false,
       "isTouchingWater": true,
-      "poseTypes": ["STAND","WALK","SWIM"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('latios2', 'air_sprint')"
-      ],
+      "poseName": "swimming",
+      "poseTypes": ["STAND", "WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'ground_walk')"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["WALK"],
       "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
     }
-  }
+  },
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.15, 0],
+  "rootBone": "latios"
 }

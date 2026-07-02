@@ -5,10 +5,10 @@
     2.5,
     0
   ],
-  "profileScale": 0.3,
+  "profileScale": 0.15,
   "profileTranslation": [
     0,
-    0.97,
+    1.35,
     0
   ],
   "rootBone": "gengar_gmax",

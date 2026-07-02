@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:houndstone",
   "order": 0,
+  "species": "cobblemon:houndstone",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:houndstone",
+      "layers": [],
       "model": "cobblemon:houndstone.geo",
-      "texture": "cobblemon:textures/pokemon/0972_houndstone/houndstone.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:houndstone",
+      "texture": "cobblemon:textures/pokemon/0972_houndstone/houndstone.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0972_houndstone/houndstone_shiny.png"
     }
   ]

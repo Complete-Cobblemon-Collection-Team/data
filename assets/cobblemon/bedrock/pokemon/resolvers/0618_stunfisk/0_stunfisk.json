@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:stunfisk",
   "order": 0,
+  "species": "cobblemon:stunfisk",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:stunfisk",
+      "layers": [],
       "model": "cobblemon:stunfisk.geo",
-      "texture": "cobblemon:textures/pokemon/0618_stunfisk/stunfisk.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:stunfisk",
+      "texture": "cobblemon:textures/pokemon/0618_stunfisk/stunfisk.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0618_stunfisk/stunfisk_shiny.png"
     }
   ]

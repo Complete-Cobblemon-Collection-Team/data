@@ -1,19 +1,16 @@
 {
-  "species": "cobblemon:heliolisk",
   "order": 0,
+  "species": "cobblemon:heliolisk",
   "variations": [
     {
-      "poser": "cobblemon:heliolisk",
+      "layers": [],
       "model": "cobblemon:heliolisk.geo",
-      "texture": "cobblemon:textures/pokemon/0695_heliolisk/heliolisk.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0695_heliolisk/heliolisk_shiny.png",
-      "layers": []
+      "poser": "cobblemon:heliolisk",
+      "texture": "cobblemon:textures/pokemon/0695_heliolisk/heliolisk.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0695_heliolisk/heliolisk_shiny.png"
     }
   ]
 }

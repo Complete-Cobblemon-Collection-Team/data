@@ -1,21 +1,19 @@
 {
-  "species": "cobblemon:minior",
   "order": 1,
+  "species": "cobblemon:minior",
   "variations": [
     {
-      "aspects": [
-        "meteor-form"
-      ],
-      "poser": "cobblemon:minior",
-      "model": "cobblemon:minior.geo",
-      "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
+      "aspects": ["meteor-form"],
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0774_minior/minior_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0774_minior/minior_emissive.png"
         }
-      ]
+      ],
+      "model": "cobblemon:minior.geo",
+      "poser": "cobblemon:minior",
+      "texture": "cobblemon:textures/pokemon/0774_minior/minior.png"
     }
   ]
 }

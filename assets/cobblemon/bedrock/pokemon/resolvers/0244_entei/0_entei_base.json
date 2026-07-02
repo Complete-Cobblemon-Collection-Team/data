@@ -1,20 +1,17 @@
 {
-  "species": "cobblemon:entei",
   "order": 0,
+  "species": "cobblemon:entei",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:entei",
+      "layers": [],
       "model": "cobblemon:entei.geo",
-      "texture": "cobblemon:textures/pokemon/0244_entei/entei.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0244_entei/entei_shiny.png",
-      "layers": []
+      "poser": "cobblemon:entei",
+      "texture": "cobblemon:textures/pokemon/0244_entei/entei.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0244_entei/entei_shiny.png"
     }
   ]
 }

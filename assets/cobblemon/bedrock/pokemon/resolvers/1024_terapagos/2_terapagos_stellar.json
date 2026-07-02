@@ -1,47 +1,39 @@
 {
-  "species": "cobblemon:terapagos",
   "order": 2,
+  "species": "cobblemon:terapagos",
   "variations": [
     {
-      "aspects": [
-        "stellar-form"
+      "aspects": ["stellar-form"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png"
+        }, {
+          "emissive": true,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_translucent.png",
+          "translucent": true
+        }
       ],
-      "poser": "cobblemon:terapagos_stellar",
       "model": "cobblemon:terapagos_stellar.geo",
-      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png",
+      "poser": "cobblemon:terapagos_stellar",
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png"
+    }, {
+      "aspects": ["stellar-form", "shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png",
-          "emissive": true
-        },
-        {
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_shiny.png"
+        }, {
+          "emissive": true,
           "name": "translucent",
           "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_translucent.png",
-          "translucent": true,
-          "emissive": true
+          "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "stellar-form",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_shiny.png",
-      "layers": [
-        {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_shiny.png",
-          "emissive": true
-        },
-        {
-          "name": "translucent",
-          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_translucent.png",
-          "translucent": true,
-          "emissive": true
-        }
-      ]
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_shiny.png"
     }
   ]
 }

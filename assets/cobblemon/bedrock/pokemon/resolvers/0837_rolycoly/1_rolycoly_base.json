@@ -1,38 +1,35 @@
 {
-  "species": "cobblemon:rolycoly",
-  "order": 1,
   "baseScale": 0.75,
   "hitbox": {
-    "width": 0.5,
+    "fixed": false,
     "height": 2,
-    "fixed": false
+    "width": 0.5
   },
+  "order": 1,
+  "species": "cobblemon:rolycoly",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rolycoly",
-      "model": "cobblemon:rolycoly.geo",
-      "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly.png",
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly_shiny.png",
+      "model": "cobblemon:rolycoly.geo",
+      "poser": "cobblemon:rolycoly",
+      "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly_emissive.png"
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0837_rolycoly/rolycoly_shiny.png"
     }
   ]
 }

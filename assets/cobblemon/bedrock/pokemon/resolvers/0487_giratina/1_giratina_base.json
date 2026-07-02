@@ -1,41 +1,27 @@
 {
-  "species": "cobblemon:giratina",
   "order": 1,
+  "species": "cobblemon:giratina",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:giratina",
+      "layers": [],
       "model": "cobblemon:giratina.geo",
-      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina.png",
-      "layers": [
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_shiny.png",
-      "layers": [
-      ]
-    },
-    {
-      "aspects": [
-        "origin-forme"
-      ],
-      "poser": "cobblemon:giratina_origin",
+      "poser": "cobblemon:giratina",
+      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_shiny.png"
+    }, {
+      "aspects": ["origin-forme"],
+      "layers": [],
       "model": "cobblemon:giratina_origin.geo",
-      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_origin.png",
-      "layers": [
-      ]
-    },
-    {
-      "aspects": [
-        "origin-forme",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_origin_shiny.png",
-      "layers": [
-      ]
+      "poser": "cobblemon:giratina_origin",
+      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_origin.png"
+    }, {
+      "aspects": ["origin-forme", "shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_origin_shiny.png"
     }
   ]
 }

@@ -1,32 +1,29 @@
 {
-  "species": "cobblemon:guzzlord",
   "order": 0,
+  "species": "cobblemon:guzzlord",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:guzzlord",
-      "model": "cobblemon:guzzlord.geo",
-      "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord.png",
       "layers": [
         {
+          "emissive": true,
           "name": "color",
-          "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord_shiny.png",
+      "model": "cobblemon:guzzlord.geo",
+      "poser": "cobblemon:guzzlord",
+      "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "color",
-          "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord_emissive.png"
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0799_guzzlord/guzzlord_shiny.png"
     }
   ]
 }

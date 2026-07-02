@@ -1,34 +1,31 @@
 {
-  "species": "cobblemon:kyogre",
   "order": 1,
+  "species": "cobblemon:kyogre",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kyogre",
-      "model": "cobblemon:kyogre.geo",
-      "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogre.png",
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogre_emissive.png",
           "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogre_shiny.png",
+      "model": "cobblemon:kyogre.geo",
+      "poser": "cobblemon:kyogre",
+      "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogre.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogre_emissive.png",
           "translucent": true
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogre_shiny.png"
     }
   ]
 }

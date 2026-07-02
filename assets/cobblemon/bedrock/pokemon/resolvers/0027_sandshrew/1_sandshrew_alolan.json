@@ -1,20 +1,14 @@
 {
-  "species": "cobblemon:sandshrew",
   "order": 1,
+  "species": "cobblemon:sandshrew",
   "variations": [
     {
-      "aspects": [
-        "alolan"
-      ],
+      "aspects": ["alolan"],
       "model": "cobblemon:sandshrew_alolan.geo",
       "poser": "cobblemon:sandshrew",
       "texture": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew_alolan.png"
-    },
-    {
-      "aspects": [
-        "alolan",
-        "shiny"
-      ],
+    }, {
+      "aspects": ["alolan", "shiny"],
       "texture": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew_alolan_shiny.png"
     }
   ]

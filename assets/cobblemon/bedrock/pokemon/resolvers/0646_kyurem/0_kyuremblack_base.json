@@ -1,37 +1,31 @@
 {
-  "species": "cobblemon:kyurem",
   "order": 0,
+  "species": "cobblemon:kyurem",
   "variations": [
     {
-      "aspects": [
-        "black-fusion"
-      ],
-      "poser": "cobblemon:kyuremblack",
-      "model": "cobblemon:kyuremblack.geo",
-      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack.png",
+      "aspects": ["black-fusion"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_emissive.png",
           "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "black-fusion",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_shiny.png",
+      "model": "cobblemon:kyuremblack.geo",
+      "poser": "cobblemon:kyuremblack",
+      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack.png"
+    }, {
+      "aspects": ["black-fusion", "shiny"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_emissive_shiny.png",
           "translucent": true
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_shiny.png"
     }
   ]
 }

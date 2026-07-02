@@ -1,20 +1,17 @@
 {
-  "species": "cobblemon:typenull",
   "order": 0,
+  "species": "cobblemon:typenull",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:typenull",
+      "layers": [],
       "model": "cobblemon:typenull.geo",
-      "texture": "cobblemon:textures/pokemon/0772_typenull/typenull.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0772_typenull/typenull_shiny.png",
-      "layers": []
+      "poser": "cobblemon:typenull",
+      "texture": "cobblemon:textures/pokemon/0772_typenull/typenull.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0772_typenull/typenull_shiny.png"
     }
   ]
 }

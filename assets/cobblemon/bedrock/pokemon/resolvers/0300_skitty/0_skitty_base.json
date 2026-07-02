@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:skitty",
   "order": 0,
+  "species": "cobblemon:skitty",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:skitty",
+      "layers": [],
       "model": "cobblemon:skitty.geo",
-      "texture": "cobblemon:textures/pokemon/0300_skitty/skitty.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:skitty",
+      "texture": "cobblemon:textures/pokemon/0300_skitty/skitty.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0300_skitty/skitty_shiny.png"
     }
   ]

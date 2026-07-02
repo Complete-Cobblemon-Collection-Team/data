@@ -1,124 +1,100 @@
 {
-    "head": "head",
-	"portraitScale": 2.4,
-    "portraitTranslation": [ -0.3, -0.7, 0 ],
-    "profileScale": 1.0,
-    "profileTranslation": [ 0, 0.3, 0 ],
   "animations": {
     "cry": "bedrock('rockruff', 'cry')",
     "recoil": "q.bedrock_stateful('rockruff', 'recoil')",
     "status": "q.bedrock_primary('rockruff', 'battle_idle', q.curve('symmetrical_wide'))"
   },
+  "head": "head",
+  "portraitScale": 2.4,
+  "portraitTranslation": [-0.3, -0.7, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": ["STAND", "WALK"],
+      "animations": ["q.bedrock('rockruff', 'battle_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.bedrock('rockruff', 'battle_idle')"
-      ],
+      "poseTypes": ["STAND", "WALK"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(rockruff, blink)"]
+          "animations": ["bedrock(rockruff, blink)"],
+          "name": "blink"
         },
         {
-          "name": "quirk",
-          "animations": ["bedrock(rockruff, look_quirk)"]
+          "animations": ["bedrock(rockruff, look_quirk)"],
+          "name": "quirk"
         }
-      ]
-    },
-    "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "isBattle": false,
-      "animations": [
-        "q.bedrock('rockruff', 'ground_idle')"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(rockruff, blink)"]
-        },
-        {
-          "name": "quirk",
-          "animations": ["bedrock(rockruff, look_quirk)"]
-        }
-      ]
-    },
-    "walking": {
-      "poseTypes": ["WALK"],
-      "animations": [
-        "q.bedrock('rockruff', 'ground_walk')"
       ]
     },
     "float": {
-      "poseTypes": ["FLOAT"],
-      "animations": [
-        "q.bedrock('rockruff', 'ground_walk')"
+      "animations": ["q.bedrock('rockruff', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "leftshoulder": {
+      "animations": ["bedrock(rockruff, left_shoulder)", "q.look('head')"],
+      "poseName": "leftshoulder",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rockruff, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10,
+      "transformedParts": [
+        {
+          "isVisible": true,
+          "part": "root",
+          "position": [5, 0, 0],
+          "rotation": [0, 0, 0]
+        }
       ]
     },
-    "swim": {
-      "poseTypes": ["SWIM"],
-      "animations": [
-        "q.bedrock('rockruff', 'ground_walk')"
+    "rightshoulder": {
+      "animations": ["bedrock(rockruff, right_shoulder)", "q.look('head')"],
+      "poseName": "rightshoulder",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rockruff, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10,
+      "transformedParts": [
+        {
+          "isVisible": true,
+          "part": "root",
+          "position": [-5, 0, 0],
+          "rotation": [0, 0, 0]
+        }
       ]
     },
     "sleep": {
-      "poseTypes": ["SLEEP"],
-      "animations": ["q.bedrock('rockruff', 'sleep')"]
+      "animations": ["q.bedrock('rockruff', 'sleep')"],
+      "poseTypes": ["SLEEP"]
     },
-   "leftshoulder": {
-     "poseName": "leftshoulder",
-     "transformTicks": 10,
-     "poseTypes": [
-       "SHOULDER_LEFT"
-     ],
-     "animations": [
-       "bedrock(rockruff, left_shoulder)",
-       "q.look('head')"
-     ],
-     "quirks": [
-       {
-         "name": "blink",
-         "animations": [
-           "bedrock(rockruff, blink)"
-         ]
-       }
-     ],
-	 "transformedParts": [
-         {
-           "part": "root",
-           "position": [5, 0, 0],
-           "rotation": [0, 0, 0],
-           "isVisible": true
-         }
-	]
-   },
-   "rightshoulder": {
-     "poseName": "rightshoulder",
-     "transformTicks": 10,
-     "poseTypes": [
-       "SHOULDER_RIGHT"
-     ],
-     "animations": [
-       "bedrock(rockruff, right_shoulder)",
-       "q.look('head')"
-     ],
-     "quirks": [
-       {
-         "name": "blink",
-         "animations": [
-           "bedrock(rockruff, blink)"
-         ]
-       }
-     ],
-	 "transformedParts": [
-         {
-           "part": "root",
-           "position": [-5, 0, 0],
-           "rotation": [0, 0, 0],
-           "isVisible": true
-         }
-	]
-   }
-  }
+    "standing": {
+      "animations": ["q.bedrock('rockruff', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rockruff, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(rockruff, look_quirk)"],
+          "name": "quirk"
+        }
+      ]
+    },
+    "swim": {
+      "animations": ["q.bedrock('rockruff', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('rockruff', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 1.0,
+  "profileTranslation": [0, 0.3, 0]
 }

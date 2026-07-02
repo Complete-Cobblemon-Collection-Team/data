@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:swalot",
   "order": 1,
+  "species": "cobblemon:swalot",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:swalot",
+      "layers": [],
       "model": "cobblemon:swalot.geo",
-      "texture": "cobblemon:textures/pokemon/0317_swalot/swalot.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:swalot",
+      "texture": "cobblemon:textures/pokemon/0317_swalot/swalot.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0317_swalot/swalot_shiny.png"
     }
   ]

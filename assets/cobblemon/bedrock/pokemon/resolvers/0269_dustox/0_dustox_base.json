@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:dustox",
   "order": 0,
+  "species": "cobblemon:dustox",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:dustox",
+      "layers": [],
       "model": "cobblemon:dustox.geo",
-      "texture": "cobblemon:textures/pokemon/0269_dustox/dustox.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:dustox",
+      "texture": "cobblemon:textures/pokemon/0269_dustox/dustox.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0269_dustox/dustox_shiny.png"
     }
   ]

@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:landorus",
   "order": 0,
+  "species": "cobblemon:landorus",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:landorus",
+      "layers": [],
       "model": "cobblemon:landorus.geo",
-      "texture": "cobblemon:textures/pokemon/0645_landorus/landorus.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:landorus",
+      "texture": "cobblemon:textures/pokemon/0645_landorus/landorus.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0645_landorus/landorus_shiny.png"
     }
   ]

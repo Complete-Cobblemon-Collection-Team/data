@@ -1,92 +1,52 @@
 {
-  "head": "head",
-  "portraitScale": 2.5,
-  "portraitTranslation": [
-    -0.3,
-    -0.5,
-    0
-  ],
-  "profileScale": 0.8,
-  "profileTranslation": [
-    0,
-    0.5,
-    0
-  ],
   "animations": {
     "cry": "q.bedrock_stateful('pawmo', 'cry', q.curve('symmetrical_wide'))",
     "recoil": "q.bedrock_stateful('pawmo', 'recoil', q.curve('symmetrical_wide'))",
     "status": "q.bedrock_stateful('pawmo', 'status', q.curve('symmetrical_wide'))"
   },
+  "head": "head",
+  "portraitScale": 2.5,
+  "portraitTranslation": [-0.3, -0.5, 0],
   "poses": {
     "battle-standing": {
-      "poseTypes": [
-        "STAND",
-        "WALK"
-      ],
+      "animations": ["q.bedrock('pawmo', 'ground_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.bedrock('pawmo', 'ground_idle')"
-      ],
+      "poseTypes": ["STAND", "WALK"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(pawmo, blink)"
-          ]
+          "animations": ["bedrock(pawmo, blink)"],
+          "name": "blink"
         }
-      ]
-    },
-    "standing": {
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
-      "animations": [
-        "q.bedrock('pawmo', 'ground_idle')"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(pawmo, blink)"
-          ]
-        }
-      ]
-    },
-    "walking": {
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('pawmo', 'ground_walk')"
       ]
     },
     "float": {
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "q.bedrock('pawmo', 'ground_walk')"
+      "animations": ["q.bedrock('pawmo', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('pawmi', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('pawmo', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(pawmo, blink)"],
+          "name": "blink"
+        }
       ]
     },
     "swim": {
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "q.bedrock('pawmo', 'ground_walk')"
-      ]
+      "animations": ["q.bedrock('pawmo', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
     },
-    "sleep": {
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "q.bedrock('pawmi', 'sleep')"
-      ]
+    "walking": {
+      "animations": ["q.bedrock('pawmo', 'ground_walk')"],
+      "poseTypes": ["WALK"]
     }
-  }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.5, 0]
 }
