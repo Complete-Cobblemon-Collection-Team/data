@@ -1,50 +1,23 @@
 {
-  "portraitScale": 1.57,
-  "portraitTranslation": [
-    -1.04,
-    1.93,
-    0
-  ],
-  "profileScale": 0.58,
-  "profileTranslation": [
-    0,
-    1.2,
-    0
-  ],
-  "rootBone": "hydreigon",
   "animations": {
     "cry": "q.bedrock_stateful('ironjugulis', 'cry')",
     "recoil": "q.bedrock_stateful('ironjugulis', 'recoil')"
   },
+  "portraitScale": 1.57,
+  "portraitTranslation": [-1.04, 1.93, 0],
   "poses": {
-    "hover": {
-      "poseTypes": [
-        "HOVER",
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('ironjugulis', 'air_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('ironjugulis', 'blink')"
-      ]
-    },
     "fly": {
-      "poseTypes": [
-        "FLY",
-        "WALK"
-      ],
-      "animations": [
-        "q.look('head_ai')",
-        "q.bedrock('ironjugulis', 'air_fly')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('ironjugulis', 'blink')"
-      ]
+      "animations": ["q.look('head_ai')", "q.bedrock('ironjugulis', 'air_fly')"],
+      "poseTypes": ["FLY", "WALK"],
+      "quirks": ["q.bedrock_quirk('ironjugulis', 'blink')"]
+    },
+    "hover": {
+      "animations": ["q.look('head_ai')", "q.bedrock('ironjugulis', 'air_idle')"],
+      "poseTypes": ["HOVER", "STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('ironjugulis', 'blink')"]
     }
-  }
+  },
+  "profileScale": 0.58,
+  "profileTranslation": [0, 1.2, 0],
+  "rootBone": "hydreigon"
 }

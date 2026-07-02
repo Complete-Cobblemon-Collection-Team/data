@@ -1,20 +1,14 @@
 {
-  "species": "cobblemon:avalugg",
   "order": 1,
+  "species": "cobblemon:avalugg",
   "variations": [
     {
-      "aspects": [
-        "hisuian"
-      ],
+      "aspects": ["hisuian"],
       "model": "cobblemon:avalugg_hisuian.geo",
       "poser": "cobblemon:avalugg_hisuian",
       "texture": "cobblemon:textures/pokemon/0713_avalugg/avalugg_hisuian.png"
-    },
-    {
-      "aspects": [
-        "hisuian",
-        "shiny"
-      ],
+    }, {
+      "aspects": ["hisuian", "shiny"],
       "texture": "cobblemon:textures/pokemon/0713_avalugg/avalugg_hisuian_shiny.png"
     }
   ]

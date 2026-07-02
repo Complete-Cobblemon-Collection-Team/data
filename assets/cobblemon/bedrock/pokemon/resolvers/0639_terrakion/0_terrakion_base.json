@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:terrakion",
   "order": 0,
+  "species": "cobblemon:terrakion",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:terrakion",
+      "layers": [],
       "model": "cobblemon:terrakion.geo",
-      "texture": "cobblemon:textures/pokemon/0639_terrakion/terrakion.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:terrakion",
+      "texture": "cobblemon:textures/pokemon/0639_terrakion/terrakion.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0639_terrakion/terrakion_shiny.png"
     }
   ]

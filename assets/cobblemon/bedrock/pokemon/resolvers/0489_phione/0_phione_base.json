@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:phione",
   "order": 0,
+  "species": "cobblemon:phione",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:phione",
+      "layers": [],
       "model": "cobblemon:phione.geo",
-      "texture": "cobblemon:textures/pokemon/0489_phione/phione.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:phione",
+      "texture": "cobblemon:textures/pokemon/0489_phione/phione.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0489_phione/phione_shiny.png"
     }
   ]

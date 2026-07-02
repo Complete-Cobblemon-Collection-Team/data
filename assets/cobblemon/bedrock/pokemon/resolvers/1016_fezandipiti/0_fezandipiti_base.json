@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:fezandipiti",
   "order": 0,
+  "species": "cobblemon:fezandipiti",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fezandipiti",
+      "layers": [],
       "model": "cobblemon:fezandipiti.geo",
-      "texture": "cobblemon:textures/pokemon/1016_fezandipiti/fezandipiti.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:fezandipiti",
+      "texture": "cobblemon:textures/pokemon/1016_fezandipiti/fezandipiti.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/1016_fezandipiti/fezandipiti_shiny.png"
     }
   ]

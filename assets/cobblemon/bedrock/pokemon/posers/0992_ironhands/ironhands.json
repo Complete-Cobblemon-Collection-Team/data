@@ -1,60 +1,34 @@
 {
-  "head": "head",
-  "portraitScale": 1.5,
-  "portraitTranslation": [
-    -0.1,
-    1.55,
-    0
-  ],
-  "profileScale": .5,
-  "profileTranslation": [
-    0,
-    0.95,
-    0
-  ],
-  "rootBone": "iron_hands",
   "animations": {
     "cry": "q.bedrock_stateful('ironhands', 'cry')",
-    "recoil": "q.bedrock_stateful('ironhands', 'recoil')",
-    "physical": "q.bedrock_primary('ironhands', 'physical', q.curve('symmetrical_wide'))"
+    "physical": "q.bedrock_primary('ironhands', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('ironhands', 'recoil')"
   },
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.1, 1.55, 0],
   "poses": {
     "battle-idle": {
-      "poseName": "battle-idle",
-      "poseTypes": [
-        "STAND"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('ironhands', 'battle_idle')"],
       "isBattle": true,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('ironhands', 'battle_idle')"
-      ]
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"]
     },
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "animations": ["q.look('head')", "q.bedrock('ironhands', 'ground_idle')"],
       "isBattle": false,
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('ironhands', 'ground_idle')"
-      ]
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["q.look('head')", "q.bedrock('ironhands', 'ground_walk')"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('ironhands', 'ground_walk')"
-      ]
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.95, 0],
+  "rootBone": "iron_hands"
 }

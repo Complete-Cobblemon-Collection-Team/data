@@ -1,34 +1,31 @@
 {
-  "species": "cobblemon:irontreads",
   "order": 0,
+  "species": "cobblemon:irontreads",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:irontreads",
-      "model": "cobblemon:irontreads.geo",
-      "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads.png",
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads_emissive.png",
           "translucent": true
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads_shiny.png",
+      "model": "cobblemon:irontreads.geo",
+      "poser": "cobblemon:irontreads",
+      "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
-          "name": "emissive",
           "emissive": true,
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads_emissive.png",
           "translucent": true
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0990_irontreads/irontreads_shiny.png"
     }
   ]
 }

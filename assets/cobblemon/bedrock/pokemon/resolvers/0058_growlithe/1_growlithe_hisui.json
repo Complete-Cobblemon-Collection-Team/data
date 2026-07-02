@@ -1,23 +1,17 @@
 {
-  "species": "cobblemon:growlithe",
   "order": 1,
+  "species": "cobblemon:growlithe",
   "variations": [
     {
-      "aspects": [
-        "hisuian"
-      ],
-      "poser": "cobblemon:growlithe_hisuian",
+      "aspects": ["hisuian"],
+      "layers": [],
       "model": "cobblemon:growlithe_hisuian.geo",
-      "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisuian.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "hisuian",
-        "shiny"
-      ],
       "poser": "cobblemon:growlithe_hisuian",
+      "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisuian.png"
+    }, {
+      "aspects": ["hisuian", "shiny"],
       "model": "cobblemon:growlithe_hisuian.geo",
+      "poser": "cobblemon:growlithe_hisuian",
       "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisuian_shiny.png"
     }
   ]

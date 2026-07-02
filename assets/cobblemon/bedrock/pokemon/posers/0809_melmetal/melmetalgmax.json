@@ -1,38 +1,21 @@
 {
-  "portraitScale": 0.5,
-  "portraitTranslation": [
-    0,
-    3,
-    0
-  ],
-  "profileScale": 0.3,
-  "profileTranslation": [
-    0,
-    1.2,
-    0
-  ],
-  "rootBone": "melmetalgmax",
   "animations": {},
+  "portraitScale": 0.87,
+  "portraitTranslation": [-0.08, 4.29, 0],
   "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('melmetalgmax', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
     "portrait": {
-      "poseTypes": [
-        "PORTRAIT",
-        "PROFILE"
-      ],
+      "animations": ["q.bedrock('melmetalgmax', 'ground_idle')"],
       "isBattle": false,
       "isTouchingWater": false,
-      "animations": [
-        "q.bedrock('melmetalgmax', 'ground_idle')"
-      ]
-    },
-    "battle-standing": {
-      "poseTypes": [
-        "STAND"
-      ],
-      "isBattle": true,
-      "animations": [
-        "q.bedrock('melmetalgmax', 'ground_idle')"
-      ]
+      "poseTypes": ["PORTRAIT", "PROFILE"]
     }
-  }
+  },
+  "profileScale": 0.25,
+  "profileTranslation": [0, 1.5, 2],
+  "rootBone": "melmetalgmax"
 }

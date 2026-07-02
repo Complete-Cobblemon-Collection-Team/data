@@ -1,62 +1,33 @@
 {
+  "animations": {
+    "cry": "q.bedrock_stateful('delcatty', 'cry')",
+    "faint": "q.bedrock_primary('delcatty', 'faint', q.curve('one'))"
+  },
   "head": "head",
   "portraitScale": 1.8,
-  "portraitTranslation": [
-    -0.3,
-    0.4,
-    0
-  ],
-  "profileScale": 0.8,
-  "profileTranslation": [
-    0,
-    0.6,
-    0
-  ],
-  "animations": {
-    "faint": "q.bedrock_primary('delcatty', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('delcatty', 'cry')"
-  },
+  "portraitTranslation": [-0.3, 0.4, 0],
   "poses": {
+    "sleeping": {
+      "animations": ["bedrock(delcatty, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
     "standing": {
+      "animations": ["look", "bedrock(delcatty, ground_idle)"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "look",
-        "bedrock(delcatty, ground_idle)"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('delcatty', 'blink')"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('delcatty', 'blink')"],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["bedrock(delcatty, ground_walk)"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(delcatty, ground_walk)"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('delcatty', 'blink')"
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "bedrock(delcatty, sleep)"
-      ]
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('delcatty', 'blink')"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, 0]
 }
-  

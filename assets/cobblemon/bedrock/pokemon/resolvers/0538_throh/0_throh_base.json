@@ -1,27 +1,23 @@
 {
-  "species": "cobblemon:throh",
-  "order": 0,
   "baseScale": 0.75,
   "hitbox": {
-    "width": 0.5,
+    "fixed": false,
     "height": 2,
-    "fixed": false
+    "width": 0.5
   },
+  "order": 0,
+  "species": "cobblemon:throh",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:throh",
+      "layers": [],
       "model": "cobblemon:throh.geo",
-      "texture": "cobblemon:textures/pokemon/0538_throh/throh.png",
-      "layers": [
-      ] 
-    },
-    {
+      "poser": "cobblemon:throh",
+      "texture": "cobblemon:textures/pokemon/0538_throh/throh.png"
+    }, {
       "aspects": ["shiny"],
-      "texture": "cobblemon:textures/pokemon/0538_throh/throh_shiny.png",
-      "layers": [
-       
-      ]
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0538_throh/throh_shiny.png"
     }
   ]
 }

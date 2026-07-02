@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:greedent",
   "order": 1,
+  "species": "cobblemon:greedent",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:greedent",
+      "layers": [],
       "model": "cobblemon:greedent.geo",
-      "texture": "cobblemon:textures/pokemon/0820_greedent/greedent.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:greedent",
+      "texture": "cobblemon:textures/pokemon/0820_greedent/greedent.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0820_greedent/greedent_shiny.png"
     }
   ]

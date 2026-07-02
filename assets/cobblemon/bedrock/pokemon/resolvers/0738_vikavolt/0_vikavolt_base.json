@@ -1,38 +1,35 @@
 {
-  "species": "cobblemon:vikavolt",
-  "order": 0,
   "baseScale": 0.75,
   "hitbox": {
-    "width": 0.5,
+    "fixed": false,
     "height": 2,
-    "fixed": false
+    "width": 0.5
   },
+  "order": 0,
+  "species": "cobblemon:vikavolt",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vikavolt",
-      "model": "cobblemon:vikavolt.geo",
-      "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt.png",
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt_emissive.png"
         }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt_shiny.png",
+      "model": "cobblemon:vikavolt.geo",
+      "poser": "cobblemon:vikavolt",
+      "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt.png"
+    }, {
+      "aspects": ["shiny"],
       "layers": [
         {
+          "emissive": true,
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt_shiny_emissive.png",
-          "emissive": true
+          "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt_shiny_emissive.png"
         }
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/0738_vikavolt/vikavolt_shiny.png"
     }
   ]
 }

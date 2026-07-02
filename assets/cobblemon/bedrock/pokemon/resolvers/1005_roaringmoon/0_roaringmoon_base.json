@@ -1,20 +1,18 @@
 {
-  "species": "cobblemon:roaringmoon",
   "order": 0,
+  "species": "cobblemon:roaringmoon",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:roaringmoon",
+      "layers": [],
       "model": "cobblemon:roaringmoon.geo",
-      "texture": "cobblemon:textures/pokemon/1005_roaringmoon/roaringmoon.png",
-      "layers": []
+      "poser": "cobblemon:roaringmoon",
+      "texture": "cobblemon:textures/pokemon/1005_roaringmoon/roaringmoon.png"
     },
     {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/1005_roaringmoon/roaringmoon_shiny.png",
-      "layers": []
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/1005_roaringmoon/roaringmoon_shiny.png"
     }
   ]
 }

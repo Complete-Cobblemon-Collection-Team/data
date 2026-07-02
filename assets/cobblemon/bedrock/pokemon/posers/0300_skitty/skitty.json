@@ -1,56 +1,31 @@
 {
+  "animations": {
+    "cry": "q.bedrock_stateful('skitty', 'cry')",
+    "faint": "q.bedrock_primary('skitty', 'faint', q.curve('one'))"
+  },
   "head": "head",
   "portraitScale": 1.9,
-  "portraitTranslation": [
-    -0.2,
-    -0.7,
-    0
-  ],
-  "profileScale": 0.9,
-  "profileTranslation": [
-    0,
-    0.4,
-    0
-  ],
-  "animations": {
-    "faint": "q.bedrock_primary('skitty', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('skitty', 'cry')"
-  },
+  "portraitTranslation": [-0.2, -0.7, 0],
   "poses": {
+    "sleeping": {
+      "animations": ["bedrock(skitty, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
     "standing": {
+      "animations": ["look", "bedrock(skitty, ground_idle)"],
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "look",
-        "bedrock(skitty, ground_idle)"
-      ]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
     },
     "walking": {
+      "animations": ["bedrock(skitty, ground_walk)"],
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(skitty, ground_walk)"
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "animations": [
-        "bedrock(skitty, sleep)"
-      ]
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0]
 }
-  

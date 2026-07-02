@@ -1,64 +1,37 @@
 {
-  "portraitScale": 2,
-  "portraitTranslation": [
-    0,
-    -0.35,
-    0
-  ],
-  "profileScale": 0.85,
-  "profileTranslation": [
-    0,
-    0.5,
-    0
-  ],
-  "rootBone": "beautifly",
   "animations": {
     "cry": "q.bedrock_stateful('beautifly', 'cry')",
     "recoil": "q.bedrock_stateful('beautifly', 'recoil')"
   },
+  "portraitScale": 2,
+  "portraitTranslation": [0, -0.35, 0],
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "q.bedrock('beautifly', 'ground_idle')"
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "q.bedrock('beautifly', 'air_fly')"
-      ]
+    "fly": {
+      "animations": ["q.bedrock('beautifly', 'air_fly')"],
+      "poseName": "fly",
+      "poseTypes": ["FLY"],
+      "transformTicks": 10
     },
     "hover": {
+      "animations": ["q.bedrock('beautifly', 'air_idle')"],
       "poseName": "hover",
-      "transformTicks": 10,
-      "poseTypes": [
-        "HOVER"
-      ],
-      "animations": [
-        "q.bedrock('beautifly', 'air_idle')"
-      ]
+      "poseTypes": ["HOVER"],
+      "transformTicks": 10
     },
-    "fly": {
-      "poseName": "fly",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLY"
-      ],
-      "animations": [
-        "q.bedrock('beautifly', 'air_fly')"
-      ]
+    "standing": {
+      "animations": ["q.bedrock('beautifly', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('beautifly', 'air_fly')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.5, 0],
+  "rootBone": "beautifly"
 }

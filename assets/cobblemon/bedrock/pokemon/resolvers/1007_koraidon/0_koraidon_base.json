@@ -6,12 +6,11 @@
       "aspects": [],
       "poser": "cobblemon:koraidon",
       "model": "cobblemon:koraidon.geo",
-      "texture": "cobblemon:textures/pokemon/1007_koraidon/koraidon.png"
+      "texture": "cobblemon:textures/pokemon/1007_koraidon/koraidon.png",
+      "layers": []
     },
     {
-      "aspects": [
-        "shiny"
-      ],
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/1007_koraidon/koraidon_shiny.png"
     }
   ]

@@ -1,16 +1,13 @@
 {
-  "species": "cobblemon:celesteela",
   "order": 0,
+  "species": "cobblemon:celesteela",
   "variations": [
     {
-      "poser": "cobblemon:celesteela",
       "model": "cobblemon:celesteela.geo",
+      "poser": "cobblemon:celesteela",
       "texture": "cobblemon:textures/pokemon/0797_celesteela/celesteela.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0797_celesteela/celesteela_shiny.png"
     }
   ]

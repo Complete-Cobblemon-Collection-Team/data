@@ -1,18 +1,15 @@
 {
-  "species": "cobblemon:tinglu",
   "order": 0,
+  "species": "cobblemon:tinglu",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:tinglu",
+      "layers": [],
       "model": "cobblemon:tinglu.geo",
-      "texture": "cobblemon:textures/pokemon/1003_tinglu/tinglu.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+      "poser": "cobblemon:tinglu",
+      "texture": "cobblemon:textures/pokemon/1003_tinglu/tinglu.png"
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/1003_tinglu/tinglu_shiny.png"
     }
   ]

@@ -1,17 +1,14 @@
 {
-  "species": "cobblemon:baxcalibur",
   "order": 0,
+  "species": "cobblemon:baxcalibur",
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:baxcalibur",
       "model": "cobblemon:baxcalibur.geo",
+      "poser": "cobblemon:baxcalibur",
       "texture": "cobblemon:textures/pokemon/0998_baxcalibur/baxcalibur.png"
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
+    }, {
+      "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/0998_baxcalibur/baxcalibur_shiny.png"
     }
   ]

@@ -1,184 +1,119 @@
 {
+  "cry": "bedrock(diancie_mega, cry)",
+  "faint": "bedrock(diancie_mega, faint, true)",
   "head": "head",
   "portraitScale": 1.8,
-  "portraitTranslation": [
-    0,
-    1.5,
-    0
-  ],
-  "profileScale": 0.8,
-  "profileTranslation": [
-    0,
-    0.9,
-    0
-  ],
-  "faint": "bedrock(diancie_mega, faint, true)",
-  "cry": "bedrock(diancie_mega, cry)",
+  "portraitTranslation": [0, 1.5, 0],
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "animations": [
-        "look",
-        "bedrock(diancie_mega, air_idle)"
-      ],
+    "battle-idle": {
+      "animations": ["bedrock(diancie_mega, air_idle)"],
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
       "quirks": [
         {
-          "name": "blink",
-          "minSecondsBetweenOccurrences": 6,
+          "animations": ["bedrock(diancie_mega, blink)"],
           "maxSecondsBetweenOccurrences": 12,
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
-        },
-        {
-          "name": "idle_emote",
-          "transformTicks": 10,
+          "minSecondsBetweenOccurrences": 6,
+          "name": "blink"
+        }, {
+          "animations": ["bedrock(diancie_mega, idle_emote)"],
           "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 19,
           "maxSecondsBetweenOccurrences": 20,
-          "animations": [
-            "bedrock(diancie_mega, idle_emote)"
-          ]
+          "minSecondsBetweenOccurrences": 19,
+          "name": "idle_emote",
+          "transformTicks": 10
         }
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
       ],
-      "animations": [
-        "bedrock(diancie_mega, air_walk)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
-        }
-      ]
+      "transformTicks": 10
     },
     "floating": {
+      "animations": ["look", "bedrock(diancie_mega, air_idle)"],
       "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "look",
-        "bedrock(diancie_mega, air_idle)"
-      ],
+      "poseTypes": ["FLOAT"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
+          "animations": ["bedrock(diancie_mega, blink)"],
+          "name": "blink"
         }
-      ]
-    },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
       ],
-      "animations": [
-        "bedrock(diancie_mega, air_walk)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
-        }
-      ]
-    },
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND"
-      ],
-      "animations": [
-        "bedrock(diancie_mega, air_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "minSecondsBetweenOccurrences": 6,
-          "maxSecondsBetweenOccurrences": 12,
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
-        },
-        {
-          "name": "idle_emote",
-          "transformTicks": 10,
-          "loopTimes": 1,
-          "minSecondsBetweenOccurrences": 19,
-          "maxSecondsBetweenOccurrences": 20,
-          "animations": [
-            "bedrock(diancie_mega, idle_emote)"
-          ]
-        }
-      ]
+      "transformTicks": 10
     },
     "flying": {
+      "animations": ["bedrock(diancie_mega, air_walk)"],
       "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLY"
-      ],
-      "animations": [
-        "bedrock(diancie_mega, air_walk)"
-      ],
+      "poseTypes": ["FLY"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
+          "animations": ["bedrock(diancie_mega, blink)"],
+          "name": "blink"
         }
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SLEEP"
       ],
-      "animations": [
-        "bedrock(diancie_mega, sleep)"
-      ]
+      "transformTicks": 10
     },
     "hovering": {
+      "animations": ["bedrock(diancie_mega, air_idle)"],
       "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [
-        "HOVER"
-      ],
-      "animations": [
-        "bedrock(diancie_mega, air_idle)"
-      ],
+      "poseTypes": ["HOVER"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": [
-            "bedrock(diancie_mega, blink)"
-          ]
+          "animations": ["bedrock(diancie_mega, blink)"],
+          "name": "blink"
         }
-      ]
+      ],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(diancie_mega, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(diancie_mega, air_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie_mega, blink)"],
+          "maxSecondsBetweenOccurrences": 12,
+          "minSecondsBetweenOccurrences": 6,
+          "name": "blink"
+        }, {
+          "animations": ["bedrock(diancie_mega, idle_emote)"],
+          "loopTimes": 1,
+          "maxSecondsBetweenOccurrences": 20,
+          "minSecondsBetweenOccurrences": 19,
+          "name": "idle_emote",
+          "transformTicks": 10
+        }
+      ],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["bedrock(diancie_mega, air_walk)"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie_mega, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(diancie_mega, air_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie_mega, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
     }
-  }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.9, 0]
 }
